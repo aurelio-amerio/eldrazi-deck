@@ -38,7 +38,7 @@
 1 Forsaken Monument
 
 // Payoffs 7+ (21)
-1 Emrakul, the Aeons Torn
+1 Emrakul, the World Anew
 1 Kozilek, Butcher of Truth
 1 Ulamog, the Infinite Gyre
 1 It That Betrays
@@ -62,7 +62,7 @@
 
 // Interaction (12)
 1 All Is Dust
-1 Ugin's Binding
+1 Eldrazi Confluence
 1 Calamity of the Titans
 1 Titan's Presence
 1 Warping Wail
