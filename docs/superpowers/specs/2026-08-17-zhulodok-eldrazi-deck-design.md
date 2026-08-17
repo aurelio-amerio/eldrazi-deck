@@ -15,7 +15,7 @@ Ramp with colorless mana rocks and lands to 7+ mana. Zhulodok gives every 7+ man
 
 ## Card evaluation principle
 
-Singleton format: prefer cards impactful on their own or with just the commander. Multi-piece land synergies (Urza Tron, Cloudpost) are unreliable in a 99-card singleton deck and are excluded from the core (at most flex filler). The valuable owned cards are the standalone ones: Eldrazi Temple, Eye of Ugin, Sol Ring, the titans, It That Betrays, Eldrazi Conscription.
+Singleton format: prefer cards impactful on their own or with just the commander. Multi-piece land synergies (Urza Tron, Cloudpost) are unreliable in a 99-card singleton deck and are excluded from the core (at most flex filler). (Data point for honesty: ~93% of EDHREC Zhulodok lists do run the Urza lands, accepting the taps-for-1 floor; the exclusion here is a deliberate preference for standalone impact, not an oversight.) The valuable owned cards are the standalone ones: Eldrazi Temple, Eye of Ugin, Sol Ring, the titans, It That Betrays, Eldrazi Conscription.
 
 ## Deck skeleton (99 cards)
 
@@ -23,10 +23,10 @@ Singleton format: prefer cards impactful on their own or with just the commander
 |---|---|---|
 | Lands | ~37 | Wastes core + standalone utility: Eldrazi Temple, Eye of Ugin, Shrine of the Forsaken Gods, Sanctum of Ugin, War Room, Bonders' Enclave, Reliquary Tower, Rogue's Passage |
 | Ramp artifacts | ~14 | Sol Ring, Mind Stone, Thought Vessel, Everflowing Chalice, Worn Powerstone, Hedron Archive, Thran Dynamo, Dreamstone Hedron, Basalt Monolith, Palladium Myr, Kozilek's Channeler, Forsaken Monument, … |
-| Payoffs (7+ mana, cascade fuel) | ~22 | Owned: Emrakul the Aeons Torn, Kozilek Butcher of Truth, Ulamog the Infinite Gyre, It That Betrays, Pathrazer of Ulamog, Ulamog's Crusher, Spawnsire. Add: Ulamog the Ceaseless Hunger, Kozilek the Great Distortion, Void Winnower, Oblivion Sower, Artisan of Kozilek, Bane of Bala Ged, Desolation Twin, Sire of Seven Deaths, … |
-| Interaction | ~10 | All Is Dust, Ugin's Binding, Titan's Presence, Warping Wail, Not of This World, Scour from Existence, Ugin the Spirit Dragon, Ugin the Ineffable |
-| Draw / tutors / glue | ~8 | Conduit of Ruin, Endbringer, Urza's Incubator, Eldrazi Conscription (owned), Lightning Greaves |
-| Midgame Eldrazi / flex | ~8 | Standalone 4–6 mana bodies that bridge to the titans: Thought-Knot Seer, Oblivion Sower (if counted here rather than payoffs), Wastescape Battlemage, Abstruse Archaic, Roaming Throne, … |
+| Payoffs (7+ mana, cascade fuel) | ~22 | Owned: Emrakul the Aeons Torn, Kozilek Butcher of Truth, Ulamog the Infinite Gyre, It That Betrays, Pathrazer of Ulamog, Ulamog's Crusher, Spawnsire. Add (EDHREC inclusion in parens): Kozilek the Great Distortion (92%), Ulamog the Ceaseless Hunger (78%), Flayer of Loyalties (77%), Artisan of Kozilek (76%), Void Winnower (67%), Desecrate Reality (74%), Rise of the Eldrazi (80%), Darksteel Monolith (88%), Bane of Bala Ged (60%), Oblivion Sower (58%), Desolation Twin, Sire of Seven Deaths (49%), … |
+| Interaction | ~10 | All Is Dust, Ugin's Binding, Titan's Presence, Warping Wail, Not of This World (85% inclusion), Scour from Existence, Calamity of the Titans (64%), Ugin the Spirit Dragon, Ugin the Ineffable |
+| Draw / tutors / glue | ~8 | Conduit of Ruin, Endbringer, Urza's Incubator, Eldrazi Conscription (owned), Lightning Greaves, Mystic Forge (81%), Echoes of Eternity (78%, 0.75€ — fair value doubler here since the deck runs no combo partners for it) |
+| Midgame Eldrazi / flex | ~8 | Standalone 4–6 mana bodies that bridge to the titans: Thought-Knot Seer, Oblivion Sower (if counted here rather than payoffs), Abstruse Archaic (47%), Skittering Cicada (73%), Solemn Simulacrum, Roaming Throne, … |
 
 Counts are targets, not hard constraints; they sum to 99 (37+14+22+10+8+8). Final counts settled during implementation.
 
@@ -34,16 +34,17 @@ Cascade density note: keep the count of 7+ mana spells high enough (~22) that ca
 
 ## Bracket 3 compliance
 
-- **Game Changers (max 3):** Ancient Tomb and Mana Vault (both as proxies, ~50-60€ each, under the 100€ cap). Third slot intentionally open.
+- **Game Changers (max 3):** Mana Vault only (proxy, ~74€). Ancient Tomb was cut on review: at 96€ EUR / $135 USD it sits at the 100€ exclusion line and fails the "would realistically buy later" test. Other GCs seen in Zhulodok lists (The One Ring, Grim Monolith, Mishra's Workshop) all fail the price cap; Field of the Dead is cheap but only 8% inclusion and anti-synergizes with a Wastes-heavy mana base. Two GC slots intentionally unused.
 - No mass land denial, no chained extra turns, no early-game 2-card infinite combos, tutors kept light (Eye of Ugin, Sanctum of Ugin, Conduit of Ruin are on-theme and slow).
 - Fully legal per the current Commander ban list (the reference deck's Jeweled Lotus is banned and excluded).
 
 ## Budget policy
 
 - **Owned:** 0€ (from collection CSV).
-- **Buy (~200€ ceiling):** the deck's backbone — cards roughly ≤15€ each. Exact priced buylist is an implementation deliverable; estimated well under budget since colorless staples are mostly cheap.
-- **Proxy:** only cards ~15–100€ (e.g. Ancient Tomb, Mana Vault, possibly a pricier titan). These remain realistically buyable later.
-- **Excluded entirely:** anything over ~100€.
+- **Buy (~200€ ceiling):** cards ≤10€ are bought freely (the bulk of the deck: All Is Dust 3.78€, Forsaken Monument 3.39€, Thran Dynamo 1.77€, Kozilek the Great Distortion 4.63€, etc.).
+- **Mid-tier 10–25€ (decided case by case at buylist time):** price review found ~10 desirable cards in this band (Ulamog the Ceaseless Hunger 18€, Sire of Seven Deaths 21€, Emrakul the Promised End 20€, Darksteel Monolith 20€, Rise of the Eldrazi 19.5€, Urza's Incubator 15€, Ulamog the Defiler 15€, Void Winnower 14€, Ugin's Labyrinth 15.6€, Ugin the Spirit Dragon 11€) — buying all would eat ~170€ alone. The buylist buys the highest-impact ones up to the 200€ ceiling and proxies the rest.
+- **Proxy:** cards ~15–100€ that don't make the buy cut (e.g. Mana Vault 74€). These remain realistically buyable later.
+- **Excluded entirely:** anything at/over ~100€ (Ancient Tomb 96€ EUR falls here in practice).
 
 ## Bracket 4 upgrade module (documented only, not built)
 
