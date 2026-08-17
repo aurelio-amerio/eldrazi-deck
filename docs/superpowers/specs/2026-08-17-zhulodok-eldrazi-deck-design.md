@@ -21,7 +21,7 @@ Singleton format: prefer cards impactful on their own or with just the commander
 
 | Category | Count | Notes |
 |---|---|---|
-| Lands | ~37 | Wastes core + standalone utility: Eldrazi Temple, Eye of Ugin, Shrine of the Forsaken Gods, Sanctum of Ugin, War Room, Bonders' Enclave, Reliquary Tower, Rogue's Passage |
+| Lands | ~37 | Wastes core + standalone utility: Eldrazi Temple, Eye of Ugin, Shrine of the Forsaken Gods, Sanctum of Ugin, War Room, Bonders' Enclave, Reliquary Tower, Rogue's Passage. **Flex replacement option:** if Urza's Cave (1.28€) and/or Expedition Map make the list, the three owned Urza lands may replace three Wastes — their floor is identical to a Wastes and the fetch effects connect the pieces often enough to matter. |
 | Ramp artifacts | ~14 | Sol Ring, Mind Stone, Thought Vessel, Everflowing Chalice, Worn Powerstone, Hedron Archive, Thran Dynamo, Dreamstone Hedron, Basalt Monolith, Palladium Myr, Kozilek's Channeler, Forsaken Monument, … |
 | Payoffs (7+ mana, cascade fuel) | ~22 | Owned: Emrakul the Aeons Torn, Kozilek Butcher of Truth, Ulamog the Infinite Gyre, It That Betrays, Pathrazer of Ulamog, Ulamog's Crusher, Spawnsire. Add (EDHREC inclusion in parens): Kozilek the Great Distortion (92%), Ulamog the Ceaseless Hunger (78%), Flayer of Loyalties (77%), Artisan of Kozilek (76%), Void Winnower (67%), Desecrate Reality (74%), Rise of the Eldrazi (80%), Darksteel Monolith (88%), Bane of Bala Ged (60%), Oblivion Sower (58%), Desolation Twin, Sire of Seven Deaths (49%), … |
 | Interaction | ~10 | All Is Dust, Ugin's Binding, Titan's Presence, Warping Wail, Not of This World (85% inclusion), Scour from Existence, Calamity of the Titans (64%), Ugin the Spirit Dragon, Ugin the Ineffable |
