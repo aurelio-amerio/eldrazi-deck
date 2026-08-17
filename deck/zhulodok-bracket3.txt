@@ -32,7 +32,7 @@
 1 Hedron Archive
 1 Thran Dynamo
 1 Fellwar Stone
-1 Basalt Monolith
+1 Sisay's Ring
 1 Palladium Myr
 1 Coldsteel Heart
 1 Forsaken Monument
@@ -93,3 +93,20 @@
 1 It That Heralds the End
 1 Roaming Throne
 1 Wandering Archaic // Explore the Vastlands
+
+// Bracket check 2026-08-17: spellbook_estimate_bracket returned malformed
+// output (non-numeric bracket_tag, empty game_changer_cards even for known
+// GCs on control lists) — treated as a persistent tool failure. Fallback per
+// task brief: spellbook_find_decklist_combos + manual check against the
+// official WotC Game Changers list.
+// spellbook_find_decklist_combos flagged Basalt Monolith + Forsaken Monument
+// as an INCLUDED (real, fully present) infinite-colorless-mana combo:
+// Forsaken Monument's actual oracle text is "Whenever you tap a permanent
+// for {C}, add an additional {C}" (not a flat static {C} as assumed in the
+// task brief), so Basalt Monolith taps for {C}{C}{C}{C} with Monument out;
+// untapping costs {3}, netting +1 mana per loop = infinite. Cut Basalt
+// Monolith, substituted Sisay's Ring (plain {T}: Add {C}{C}, no untap
+// ability, no combo re-formed) per brief contingency, and re-ran the combo
+// check: included combos = none; only unrelated almost_included entries
+// remain, none of whose other required pieces are in this decklist.
+// Bracket check 2026-08-17: bracket 3, Game Changers: Mana Vault (1/3)
