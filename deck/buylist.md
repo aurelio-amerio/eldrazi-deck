@@ -91,7 +91,7 @@ value used as a EUR-scale fallback (Mind Stone, Thought Vessel, Fellwar Stone: c
 Hedron Archive, Expedition Map: only a foil USD price exists). All are trivially under 10€ regardless
 of exact conversion.
 
-## Proxy (would cost 293.85€ — print these)
+## Proxy (would cost ≈293.85€ — print these)
 | Card | EUR | Reason |
 |---|---|---|
 | Mana Vault | 74.25 | ≥25€ |

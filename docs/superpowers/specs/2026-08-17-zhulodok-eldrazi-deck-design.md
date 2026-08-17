@@ -1,5 +1,7 @@
 # Zhulodok, Void Gorger — "Double Cascade Titans" Commander Deck
 
+**Errata (2026-08-17, post-build):** three skeleton-table cards were replaced during validated deck construction — Emrakul, the Aeons Torn (banned in Commander) → Emrakul, the World Anew; Ugin's Binding (blue color identity despite Devoid) → Eldrazi Confluence; Basalt Monolith (infinite mana with Forsaken Monument) → Sisay's Ring. The delivered lists in `deck/` are canonical.
+
 **Date:** 2026-08-17
 **Status:** Approved design, pending implementation
 **Commander:** Zhulodok, Void Gorger ({5}{C}, colorless)

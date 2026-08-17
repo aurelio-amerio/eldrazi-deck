@@ -12,7 +12,7 @@ listed as an add.
 | Glaring Fleshraker | ~1€ | With Echoes of Eternity (already in deck): each colorless cast becomes 2 triggers, drains + tokens; near-combo turns |
 | Kozilek's Unsealing | ~0.50€ | Every big cast draws 3; chains with cascade into more casts |
 | Rings of Brighthearth | ~4.50€ | Copies fetch/draw activations; WARNING: combos with Basalt Monolith for infinite colorless mana once Basalt Monolith is re-added per the row below — Basalt Monolith is not currently in the bracket-3 list |
-| Basalt Monolith | ~3€ | Cut from the bracket-3 list because with Forsaken Monument (in deck) it makes infinite colorless mana; at bracket 4 that combo is the point. Cheapest upgrade: re-add it (cutting Sisay's Ring back out) |
+| Basalt Monolith | ~3€ | Cut from the bracket-3 list because with Forsaken Monument (in deck) it makes infinite colorless mana; at bracket 4 that combo is the point. Cheapest combo enabler: re-add it (cutting Sisay's Ring back out) |
 | Grim Monolith | — | EXCLUDED: ~325€ violates price cap. Listed so nobody re-adds it. |
 | Metalworker | ~87€ (proxy) | Reveals a grip of artifacts for huge mana bursts |
 | Urza's Saga | ~38€ (proxy) | Tutors Expedition Map/Sol Ring, makes construct blockers |
