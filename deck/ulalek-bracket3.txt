@@ -1,0 +1,112 @@
+1 Ulalek, Fused Atrocity
+
+// Lands (34)
+1 Ancient Tomb
+1 Blast Zone
+1 Bonders' Enclave
+1 Breeding Pool
+1 Cascading Cataracts
+1 Cavern of Souls
+1 City of Brass
+1 Command Tower
+1 Eldrazi Temple
+1 Exotic Orchard
+1 Eye of Ugin
+1 Forest
+1 Island
+1 Karplusan Forest
+1 Ketria Triome
+1 Mana Confluence
+1 Misty Rainforest
+1 Mountain
+1 Path of Ancestry
+1 Petrified Hamlet
+1 Prismatic Vista
+1 Sanctum of Ugin
+1 Scalding Tarn
+1 Shivan Reef
+1 Snow-Covered Wastes
+1 Steam Vents
+1 Stomping Ground
+1 Three Tree City
+1 Tomb of the Spirit Dragon
+1 Ugin's Labyrinth
+1 Wasteland
+1 Wooded Foothills
+1 Yavimaya Coast
+1 Yavimaya, Cradle of Growth
+
+// Ramp & Cost Reduction (13)
+1 Arcane Signet
+1 Basalt Monolith
+1 Conduit of Ruin
+1 Forsaken Monument
+1 Herald of Kozilek
+1 It That Heralds the End
+1 Mana Vault
+1 Nature's Lore
+1 Sol Ring
+1 Talisman of Curiosity
+1 Talisman of Impulse
+1 Three Visits
+1 Urza's Incubator
+
+// Draw & Engines (11)
+1 Awakening Zone
+1 Echoes of Eternity
+1 From Beyond
+1 Kozilek's Command
+1 Kozilek's Unsealing
+1 Path of Annihilation
+1 Shadow in the Warp
+1 Shamanic Revelation
+1 Sylvan Scrying
+1 The Great Henge
+1 Crop Rotation
+
+// Interaction & Removal (12)
+1 All Is Dust
+1 Desecrate Reality
+1 Kozilek's Return
+1 Mana Drain
+1 Not of This World
+1 Null Elemental Blast
+1 Selective Obliteration
+1 Stubborn Denial
+1 Ugin's Binding
+1 Warping Wail
+1 Ugin, the Ineffable
+1 Ugin, the Spirit Dragon
+
+// Big Threats & Planeswalkers (4)
+1 Eldrazi Conscription
+1 Eldritch Immunity
+1 Summon: Bahamut
+1 Ugin, Eye of the Storms
+
+// Creatures (25)
+1 Abstruse Archaic
+1 Azlask, the Swelling Scourge
+1 Benthic Anomaly
+1 Chittering Dispatcher
+1 Eldrazi Displacer
+1 Eldrazi Linebreaker
+1 Eldrazi Mimic
+1 Emrakul, the World Anew
+1 Endbringer
+1 Flayer of Loyalties
+1 Hideous Taskmaster
+1 Kozilek, the Broken Reality
+1 Kozilek, the Great Distortion
+1 Nulldrifter
+1 Reality Smasher
+1 Sire of Stagnation
+1 Skittering Cicada
+1 Sowing Mycospawn
+1 Thief of Existence
+1 Thought-Knot Seer
+1 Ulamog, the Ceaseless Hunger
+1 Ulamog, the Defiler
+1 Ultima, Origin of Oblivion
+1 World Breaker
+1 Zhulodok, Void Gorger
