@@ -36,6 +36,24 @@ final list): Ulalek + Echoes of Eternity + Kozilek's Unsealing, and Basalt Monol
 Monument. Game Changers sit at exactly 3 — Ancient Tomb, Mana Vault, Crop Rotation — the
 bracket-3 cap.
 
+## 2026-08-19 speed/resilience pass
+
+Five swaps to fix the slow "7 mana → doubled-Eldrazi turn" conversion and the T5–8 danger window
+(see decision log in `deck/ulalek-bracket3.txt`). Out: Shamanic Revelation, Selective Obliteration,
+Endbringer, Sire of Stagnation, Benthic Anomaly (−2.97€ from the Buy list). In: Mind Stone,
+Fellwar Stone, Worn Powerstone, Elder Deep-Fiend, Lightning Greaves (+4.40€, priced 2026-08-19).
+The fatty slot was first Metalwork Colossus, revised same day after owner review — Elder Deep-Fiend
+is an actual Eldrazi (Ulalek copy) with a flash defensive mode, and the sim showed Colossus wasn't
+carrying the speed gain. Combos re-verified after both revisions: still only the two allowed
+late-game lines above; no new Game Changers (none of the adds is on the list).
+
+## 2026-08-19 interaction pass
+
+Two swaps from the same-day reassessment (interaction in the T3–6 window was a coin flip and soft
+in quality; see decision log in `deck/ulalek-bracket3.txt`). Out: Null Elemental Blast (multicolored-
+only, frequently dead), Eldrazi Mimic (−1.21€). In: Beast Within, Imprisoned in the Moon (+0.79€,
+priced 2026-08-19). No Game Changer or combo-policy implications.
+
 ## Owned (0€, from collection)
 | Card | Note |
 |---|---|
@@ -58,7 +76,7 @@ bracket-3 cap.
 | Scalding Tarn | 26.64 | |
 | Misty Rainforest | 25.66 | |
 
-## Buy (total: 372.47€, 86 cards)
+## Buy (total: 373.48€, 86 cards)
 | Card | EUR |
 |---|---|
 | Wasteland | 23.39 |
@@ -92,6 +110,7 @@ bracket-3 cap.
 | Thought-Knot Seer | 3.41 |
 | Eldritch Immunity | 3.36 |
 | Forsaken Monument | 3.34 |
+| Lightning Greaves | 3.02 |
 | Not of This World | 2.87 |
 | Basalt Monolith | 2.85 |
 | Desecrate Reality | 2.61 |
@@ -104,17 +123,16 @@ bracket-3 cap.
 | Ugin, the Ineffable | 1.20 |
 | Cascading Cataracts | 1.11 |
 | Reality Smasher | 1.08 |
-| Shamanic Revelation | 1.07 |
 | Hideous Taskmaster | 1.05 |
 | Kozilek's Return | 0.94 |
-| Eldrazi Mimic | 0.94 |
+| Fellwar Stone | 0.93 |
 | Karplusan Forest | 0.92 |
 | From Beyond | 0.86 |
-| Sire of Stagnation | 0.84 |
 | Petrified Hamlet | 0.80 |
 | Echoes of Eternity | 0.75 |
 | Eldrazi Displacer | 0.75 |
 | Ultima, Origin of Oblivion | 0.69 |
+| Beast Within | 0.64 |
 | Arcane Signet | 0.53 |
 | Warping Wail | 0.50 |
 | Shivan Reef | 0.48 |
@@ -125,31 +143,32 @@ bracket-3 cap.
 | Tomb of the Spirit Dragon | 0.41 |
 | Talisman of Impulse | 0.39 |
 | Herald of Kozilek | 0.37 |
-| Benthic Anomaly | 0.37 |
 | Blast Zone | 0.36 |
-| Selective Obliteration | 0.36 |
 | Ulalek, Fused Atrocity (commander) | 0.35 |
 | Azlask, the Swelling Scourge | 0.34 |
 | Awakening Zone | 0.33 |
-| Endbringer | 0.33 |
 | Talisman of Curiosity | 0.32 |
 | Thief of Existence | 0.32 |
 | Command Tower | 0.28 |
 | Snow-Covered Wastes | 0.28 |
 | It That Heralds the End | 0.27 |
-| Null Elemental Blast | 0.27 |
 | Kozilek's Unsealing | 0.26 |
 | Exotic Orchard | 0.21 |
 | World Breaker | 0.21 |
 | Sylvan Scrying | 0.18 |
+| Mind Stone | 0.18 |
+| Worn Powerstone | 0.17 |
+| Imprisoned in the Moon | 0.15 |
 | Path of Ancestry | 0.14 |
+| Elder Deep-Fiend | 0.10 |
 | Forest | 0.10 |
 | Island | 0.10 |
 | Mountain | 0.10 |
 | Path of Annihilation | 0.10 |
 
 ## Cost summary
-- Cash outlay if all Buy cards are purchased: **372.47€** (86 cards)
+- Cash outlay if all Buy cards are purchased: **373.48€** (86 cards; the seven 2026-08-19 adds are
+  priced at that day's snapshot, the rest at 2026-08-18)
 - Avoided by proxying (10 cards ≥25€): 472.52€
 - The 25€ proxy threshold is a default — since proxying freely is on the table, any Buy card can
   move to the proxy pile to cut the outlay further (the top 12 Buy cards alone are ≈213€).
