@@ -1,0 +1,200 @@
+1 Ulalek, Fused Atrocity
+
+// Lands (34)
+1 Ancient Tomb
+1 Blast Zone
+1 Breeding Pool
+1 Cavern of Souls
+1 City of Brass
+1 Command Tower
+1 Eldrazi Temple
+1 Exotic Orchard
+1 Eye of Ugin
+1 Forbidden Orchard
+1 Forest
+1 Island
+1 Ketria Triome
+1 Mana Confluence
+1 Misty Rainforest
+1 Mountain
+1 Path of Ancestry
+1 Prismatic Vista
+1 Sanctum of Ugin
+1 Scalding Tarn
+1 Secluded Courtyard
+1 Shivan Reef
+1 Spire of Industry
+1 Starting Town
+1 Steam Vents
+1 Stomping Ground
+1 Tarnished Citadel
+1 Three Tree City
+1 Ugin's Labyrinth
+1 Urza's Saga
+1 Wasteland
+1 Wooded Foothills
+1 Yavimaya Coast
+1 Yavimaya, Cradle of Growth
+
+// Ramp & Cost Reduction (16)
+1 Arcane Signet
+1 Basalt Monolith
+1 Conduit of Ruin
+1 Forsaken Monument
+1 Grim Monolith
+1 Herald of Kozilek
+1 It That Heralds the End
+1 Lotus Petal
+1 Mana Vault
+1 Mox Diamond
+1 Nature's Lore
+1 Sol Ring
+1 Talisman of Curiosity
+1 Talisman of Dominance
+1 Talisman of Impulse
+1 Urza's Incubator
+
+// Tutors, Draw & Engines (11)
+1 Crop Rotation
+1 Demonic Tutor
+1 Echoes of Eternity
+1 Kozilek's Command
+1 Kozilek's Unsealing
+1 Mystic Forge
+1 Shadow in the Warp
+1 Sylvan Scrying
+1 The One Ring
+1 Vampiric Tutor
+1 Wishclaw Talisman
+
+// Combo Package (7)
+1 Eternal Scourge
+1 Food Chain
+1 Glaring Fleshraker
+1 Rings of Brighthearth
+1 Spawn-Gang Commander
+1 Strionic Resonator
+1 Writhing Chrysalis
+
+// Interaction & Removal (13)
+1 All Is Dust
+1 Beast Within
+1 Deflecting Swat
+1 Desecrate Reality
+1 Fierce Guardianship
+1 Imprisoned in the Moon
+1 Kozilek's Return
+1 Mana Drain
+1 Stubborn Denial
+1 Ugin's Binding
+1 Warping Wail
+1 Ugin, the Ineffable
+1 Ugin, the Spirit Dragon
+
+// Big Threats & Protection (3)
+1 Eldritch Immunity
+1 Lightning Greaves
+1 Ugin, Eye of the Storms
+
+// Creatures (15)
+1 Abstruse Archaic
+1 Elder Deep-Fiend
+1 Eldrazi Displacer
+1 Emrakul, the World Anew
+1 Kozilek, the Broken Reality
+1 Kozilek, the Great Distortion
+1 Sire of Stagnation
+1 Skittering Cicada
+1 Sowing Mycospawn
+1 Thought-Knot Seer
+1 Ulamog, the Ceaseless Hunger
+1 Ulamog, the Defiler
+1 Ultima, Origin of Oblivion
+1 World Breaker
+1 Zhulodok, Void Gorger
+
+// --- Decision log ---
+// 2026-08-21 bracket-4 build (derived from ulalek-bracket3.txt; inspiration from
+// ulalek-nightmare-stacks-toodeep-b5.txt, a cEDH Ulalek list sharing only 16/100 cards).
+// Design: keep the Eldrazi-battlecruiser identity; import the b5 deck's *structure*
+// (dense compact combo web + tutors to find it + fast mana + rainbow fixing), not its
+// stax/free-counter cEDH shell. Deliberately NOT imported: Kinnan, Smothering Tithe /
+// Rhystic / Remora value-stax, Silence effects, Force of Will/Misdirection (too few
+// blue cards to pitch), Urza tron lands (synergy-land trap, see house rules).
+//
+// Combo web (verified via Commander Spellbook on this exact list, 13 included lines):
+//   Basalt Monolith + Forsaken Monument            (carried over)
+//   Basalt Monolith + Rings of Brighthearth        (new)
+//   Ulalek + Echoes of Eternity + Kozilek's Unsealing  (carried over)
+//   Ulalek + Echoes of Eternity + Glaring Fleshraker   (new)
+//   Ulalek + Echoes of Eternity + Spawn-Gang Commander (new)
+//   Ulalek + Strionic Resonator + Kozilek's Unsealing  (new)
+//   Ulalek + Strionic Resonator + Spawn-Gang Commander (new; the b5 deck's main line)
+//   Food Chain + Eternal Scourge (+ Fleshraker as kill outlet; fastest line, ~T4)
+//   Ulalek + Echoes of Eternity + Writhing Chrysalis      (new)
+//   Ulalek + Strionic Resonator + Writhing Chrysalis      (new)
+//   Ulalek + Writhing Chrysalis + Eldritch Immunity       (new)
+//   Ulalek + Writhing Chrysalis + Abstruse Archaic        (new)
+//   Rings of Brighthearth + Forsaken Monument + Grim Monolith (new)
+//   Nearly every pairing of {Echoes, Resonator, Chrysalis} x {Unsealing, Spawn-Gang,
+//   Fleshraker} wins -> redundancy instead of cEDH-grade tutor density; the black
+//   tutors + Wishclaw find the missing half.
+//
+// 2026-08-21 goldfish sim (20k games, same script both lists; models Tomb/Temple as
+// 2 mana, Eye of Ugin as -2, greedy rocks/reducers; combo metric = pieces deployed
+// from natural draws + 2 spare mana, tutors/One Ring/Saga NOT modeled, so real combo
+// assembly is faster than shown):
+//   commander castable:  b3 median T5 (50% by T4) -> b4 median T4 (55% by T4)
+//   7 effective mana:    b3 median T7 (49% by T6) -> b4 median T6 (51% by T6)
+//   combo line online:   b3 5% by T6 / 11% by T8  -> b4 17% by T6 / 28% by T8
+//   first MV7+ threat:   b3 median T9 -> b4 median T11 (accepted tradeoff: 4 fewer
+//     haymakers held in hand; the win condition moved to the combo web)
+//
+// Swaps vs bracket3 (20 total):
+//   LANDS OUT: Tomb of the Spirit Dragon, Bonders' Enclave, Snow-Covered Wastes,
+//     Petrified Hamlet, Cascading Cataracts (slow/low-impact utility).
+//   LANDS IN:  Forbidden Orchard, Tarnished Citadel, Starting Town, Spire of Industry
+//     (rainbow fixing so the black tutors and off-color pips are castable),
+//     Urza's Saga (fetches Sol Ring / Mana Vault / Lotus Petal / Mox-class rocks).
+//   OUT (slow value / win-more): Awakening Zone, From Beyond, Path of Annihilation,
+//     Summon: Bahamut, Eldrazi Conscription, Flayer of Loyalties, Hideous Taskmaster,
+//     Nulldrifter, Chittering Dispatcher, Eldrazi Linebreaker, Azlask (WUBRG activation
+//     unrealistic here), Thief of Existence, Not of This World (superseded by free
+//     interaction), Worn Powerstone, Three Visits (kept Nature's Lore).
+//   IN: combo package (7 above), Demonic Tutor, Vampiric Tutor, Wishclaw Talisman,
+//     Grim Monolith, Lotus Petal, The One Ring, Fierce Guardianship, Deflecting Swat.
+//   2026-08-21 no-price-cap ruling: Mind Stone -> Mox Diamond (0-mana any-color rock;
+//     34 lands provide discard fodder, fixes tutor pips). Chrome Mox / Mishra's
+//     Workshop still excluded on fit (no colored cards to imprint; Workshop can't
+//     cast Eldrazi spells), Gaea's Cradle on fit (too few early bodies), City of
+//     Traitors on fit (deck wants a land drop every turn).
+//
+// Game Changers (Feb-2026 list; bracket 4 = no cap): Ancient Tomb, Mana Vault,
+// Crop Rotation, Food Chain, Demonic Tutor, Vampiric Tutor, The One Ring,
+// Fierce Guardianship, Deflecting Swat, Grim Monolith. This list is bracket-4 only;
+// it cannot be downgraded to a b3 table without reverting to ulalek-bracket3.txt.
+//
+// Proxy candidates (>=25 EUR, Cardmarket 2026-08-21): Grim Monolith ~325 (FLAGGED
+// >100 EUR - double-check before acquiring; proxy strongly recommended), The One Ring
+// ~84, Deflecting Swat ~58, Fierce Guardianship ~47, Demonic Tutor ~47, Vampiric
+// Tutor ~41, Urza's Saga ~40. Cheap core of the upgrade (Fleshraker, Scourge,
+// Spawn-Gang, Chrysalis, Rings, Wishclaw, Spire, Food Chain, Resonator) ~ 35 EUR.
+//
+// 2026-08-21 EDHREC review (4 swaps; all adds are cheap, no new proxy candidates):
+//   The Great Henge -> Mystic Forge: Henge grades 6% inclusion / 0.00 synergy on
+//     EDHREC Ulalek (15 creatures, mostly high-MV, so it's rarely discounted);
+//     Forge (59% / 0.54) casts ~85% of the deck off the top, triggers Unsealing /
+//     Shadow in the Warp / Ulalek on each top-deck cast, and makes Conduit of
+//     Ruin's tutored creature castable immediately.
+//   Fellwar Stone -> Talisman of Dominance: Fellwar grades negative synergy
+//     (-0.20, opponent-dependent); Dominance guarantees B for the tutor suite,
+//     U for counters, painless C otherwise.
+//   Karplusan Forest -> Secluded Courtyard: painless any-color for Eldrazi
+//     creature spells (incl. commander) beats R/G painland fixing in the two
+//     shallowest colors.
+//   Reality Smasher -> Sire of Stagnation: Sire is the highest-synergy card the
+//     list lacked (0.71 / 75%); Smasher doesn't crack EDHREC's top-25 creatures
+//     for this commander. Accepted slow-value exception for raw card advantage.
+//   Considered and skipped: Ancient Stirrings over Sylvan Scrying (kept the
+//     guaranteed Eye of Ugin / Sanctum fetch), Idol of Oblivion (slot pressure),
+//     Corrupted Crossroads (took Courtyard instead).

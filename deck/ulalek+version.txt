@@ -1,0 +1,100 @@
+1 Ulalek, Fused Atrocity (M3C) 16 *F*
+1 Abstruse Archaic (CMM) 712
+1 All Is Dust (MM2) 1
+1 Ancient Tomb (EOS) 1
+1 Awakening Zone (SOC) 262
+1 Azlask, the Swelling Scourge (M3C) 9
+1 Basalt Monolith (C13) 237
+1 Blast Zone (EOS) 2
+1 Bonders' Enclave (EOS) 4
+1 Breeding Pool (EOE) 278
+1 Cascading Cataracts (EOS) 5
+1 Cavern of Souls (AVR) 226
+1 Chittering Dispatcher (M3C) 63
+1 City of Brass (2X2) 403
+1 Conduit of Ruin (BFZ) 4
+1 Crop Rotation (SOA) 51
+1 Desecrate Reality (CMM) 746
+1 Echoes of Eternity (PMH3) 4p *F*
+1 Elder Deep-Fiend (PLST) EMN-5
+1 Eldrazi Conscription (SLD) 1218
+1 Eldrazi Displacer (M3C) 169
+1 Eldrazi Linebreaker (MH3) 117 *F*
+1 Eldrazi Temple (EOS) 14
+1 Eldritch Immunity (M3C) 33
+1 Emrakul, the World Anew (MH3) 381
+1 Erebor Heirloom (SLD) 2557
+1 Exotic Orchard (TMC) 66 *F*
+1 Eye of Ugin (MM2) 242
+1 Flayer of Loyalties (CMM) 747
+1 Forest (HOB) 198
+1 Forsaken Monument (PZNR) 244p
+1 From Beyond (BFZ) 167
+1 Heart of the Mountain (SLD) 916 *F*
+1 Herald of Kozilek (BFZ) 205
+1 Hideous Taskmaster (M3C) 57
+1 I Hate Mondays (SLD) 2671
+1 Imprisoned in the Moon (SLD) 1102
+1 Island (HOB) 195
+1 It That Heralds the End (MH3) 385
+1 Karplusan Forest (BLC) 314
+1 Ketria Triome (PIKO) 250p
+1 Kozilek, the Broken Reality (MH3) 382
+1 Kozilek, the Great Distortion (CMM) 668
+1 Kozilek's Command (MH3) 11
+1 Kozilek's Return (M3C) 214
+1 Kozilek's Unsealing (MH3) 65
+1 Lightning Greaves (NCC) 371
+1 Mana Confluence (EOS) 25
+1 Mana Drain (OTP) 11
+1 Mana Vault (3ED) 263
+1 Mind Stone (PLST) C18-210
+1 Misty Rainforest (MH2) 438
+1 Mountain (FDN) 289
+1 Nature's Lore (5ED) 316
+1 Not of This World (PLST) ROE-8 *F*
+1 Nulldrifter (MH3) 13
+1 Path of Ancestry (SLD) 2684
+1 Path of Annihilation (MH3) 165
+1 Petrified Hamlet (PSOS) 259p *F*
+1 Prismatic Vista (SLD) 2699 *F*
+1 Reality Smasher (SCH) 31 *F*
+1 Sanctum of Ugin (BFZ) 242
+1 Scalding Tarn (MH2) 439
+1 Shadow in the Warp (40K) 140
+1 Shivan Reef (EOC) 179
+1 Skittering Cicada (CMM) 717
+1 Snow-Covered Wastes (MB2) 121
+1 Sol Ring (MIC) 162
+1 Sowing Mycospawn (MH3) 170
+1 Steam Vents (PGRN) 257p
+1 Stomping Ground (GTC) 247
+1 Stubborn Denial (KTK) 56
+1 Summon: Bahamut (FIN) 356
+1 Sylvan Scrying (BFZ) 192
+1 Talisman of Curiosity (DRC) 140
+1 Talisman of Impulse (M3C) 311
+1 The Party Tree (LTC) 348
+1 Thief of Existence (MH3) 174
+1 Thought-Knot Seer (OGW) 9
+1 Three Tree City (BLB) 338
+1 Tomb of the Spirit Dragon (M3C) 397
+1 Tower of Rasmodius (SLD) 2812
+1 Ugin, Eye of the Storms (TDM) 382
+1 Ugin, the Ineffable (WAR) 2
+1 Ugin, the Spirit Dragon (FRF) 1
+1 Ugin's Binding (MH3) 328
+1 Ugin's Labyrinth (PMH3) 233p
+1 Ulamog, the Ceaseless Hunger (CMM) 670
+1 Ulamog, the Defiler (MH3) 383
+1 Ultima, Origin of Oblivion (FIN) 2
+1 Urza's Incubator (DMR) 392
+1 Valley of Gorgoroth (LTC) 376
+1 Warping Wail (OGW) 12
+1 We Want . . . A SHRUBBERY! (SLD) 1676
+1 Wooded Foothills (MH3) 441
+1 World Breaker (EOC) 112
+1 Worn Powerstone (PLST) USG-318
+1 Yavimaya Coast (M3C) 410
+1 Yavimaya, Cradle of Growth (M3C) 409 *F*
+1 Zhulodok, Void Gorger (CMM) 704 *F*

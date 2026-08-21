@@ -9,6 +9,8 @@ An MTG Commander (EDH) deck-building workspace for Eldrazi decks — data files 
 - **Zhulodok, Void Gorger** (pure colorless) — `deck/zhulodok-bracket3.txt`
 - **Ulalek, Fused Atrocity** (five-color identity, colorless core) — `deck/ulalek-bracket3.txt`
 
+**Current working deck:** `deck/ulalek-bracket3.txt` — unless otherwise specified, "the deck" refers to this one.
+
 The decklist `.txt` files are **canonical for card names and counts**; buylists and reviews follow them. Decision history and errata live as `//` comments at the bottom of the decklists and in `TODO.md` — read those before re-litigating a card choice. `eldrazi-incursion-*.txt` is the imported source snapshot the Ulalek list was derived from.
 
 Other key files:
@@ -21,7 +23,7 @@ Other key files:
 ## House rules (already adjudicated — don't re-flag)
 
 - **Bracket-3 combo policy:** only *early-game* 2-card infinite combos must be cut; late-game combo lines are allowed. Applied rulings: Basalt Monolith + Forsaken Monument was **cut from Zhulodok** (swapped to Sisay's Ring) but **deliberately kept in Ulalek** as a late-game line; Food Chain + Eternal Scourge (+ Glaring Fleshraker) was cut from Ulalek. Bracket 3 also caps official Game Changers at 3 — Ulalek sits at that cap (Mana Vault, Ancient Tomb, Crop Rotation; note Mana Drain is *not* on the Feb-2026 GC list), Zhulodok has 1 (Mana Vault).
-- **Ownership accounting:** only the collection CSV counts as owned. Prior buylists are *not* acquisitions. The owner proxies freely — keep expensive cards and mark ≥25€ ones as proxy candidates instead of substituting budget cards; flag anything approaching 100€ for a double-check.
+- **Ownership accounting:** only the collection CSV counts as owned. Prior buylists are *not* acquisitions. The owner proxies freely and there is **no price cap** — never let price drive a card choice; keep marking ≥25€ cards as proxy candidates in buylists (so the order/proxy split stays clear), but no double-check is needed at any price (ruled 2026-08-21).
 - **Card evaluation:** prefer standalone-impactful cards; Tron/Cloudpost-style synergy lands are low-value in singleton.
 - **Color identity trap:** devoid cards are colorless but keep their colored identity (e.g. Kozilek's Unsealing `{2}{U}` is illegal in Zhulodok, fine in Ulalek). This mistake has been made twice — check identity, not color, before recommending a card for Zhulodok.
 

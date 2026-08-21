@@ -1,0 +1,61 @@
+1 Abstruse Archaic (CMM) 712
+1 Arcane Signet (OTC) 252
+1 Awakening Zone (SOC) 262
+1 Azlask, the Swelling Scourge (M3C) 9
+1 Beast Within (CLB) 820
+1 Blast Zone (EOS) 2
+1 Bonders' Enclave (FIC) 376
+1 Cascading Cataracts (AKH) 240
+1 Chittering Dispatcher (M3C) 63
+1 Command Tower (CMR) 350
+1 Desecrate Reality (CMM) 746
+1 Echoes of Eternity (PMH3) 4p *F*
+1 Elder Deep-Fiend (PLST) EMN-5
+1 Eldrazi Conscription (SOC) 131
+1 Eldrazi Displacer (M3C) 169
+1 Eldrazi Linebreaker (MH3) 117 *F*
+1 Exotic Orchard (TMC) 66 *F*
+1 Fellwar Stone (9ED) 297
+1 Forest (HOB) 198
+1 From Beyond (BFZ) 167
+1 Herald of Kozilek (BFZ) 205
+1 Hideous Taskmaster (M3C) 57
+1 Imprisoned in the Moon (INR) 69
+1 Island (HOB) 195
+1 It That Heralds the End (MH3) 385
+1 Karplusan Forest (BLC) 314
+1 Kozilek's Return (M3C) 214
+1 Kozilek's Unsealing (MH3) 65
+1 Mind Stone (PLST) C18-210
+1 Mountain (FDN) 289
+1 Nature's Lore (5ED) 316
+1 Nulldrifter (MH3) 13
+1 Path of Ancestry (SOC) 393
+1 Path of Annihilation (MH3) 165
+1 Petrified Hamlet (PSOS) 259p *F*
+1 Reality Smasher (SCH) 31 *F*
+1 Sanctum of Ugin (BFZ) 242
+1 Shivan Reef (EOC) 179
+1 Snow-Covered Wastes (MB2) 121
+1 Sol Ring (MIC) 162
+1 Sowing Mycospawn (MH3) 170
+1 Sylvan Scrying (BFZ) 192
+1 Talisman of Curiosity (DRC) 140
+1 Talisman of Impulse (M3C) 311
+1 Thief of Existence (MH3) 174
+1 Tomb of the Spirit Dragon (M3C) 397
+1 Ugin's Binding (MH3) 76
+1 Ugin, the Ineffable (WAR) 2
+1 Ulalek, Fused Atrocity (M3C) 4
+1 Ultima, Origin of Oblivion (FIN) 2
+1 Warping Wail (OGW) 12
+1 World Breaker (EOC) 112
+1 Worn Powerstone (PLST) USG-318
+1 Yavimaya Coast (M3C) 410
+
+// Ulalek order list, 2026-08-19 Cardmarket EUR via Scryfall.
+// All 54 cards priced under 2.50 EUR in some printing (tier 1 + tier 2).
+// Rule: keep the chosen printing when it is under 0.50 EUR more than the cheapest, else cheapest.
+// Total 33.24 EUR. Sol Ring (MIC 162) and Eldrazi Conscription are already in the collection.
+// Renamed Secret Lairs resolved to their normal printings: Erebor Heirloom -> Fellwar Stone,
+// Heart of the Mountain -> Arcane Signet, I Hate Mondays -> Beast Within, Tower of Rasmodius -> Command Tower.
