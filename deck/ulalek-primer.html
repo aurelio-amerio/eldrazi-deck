@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ulalek Primer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#EEEDF2; --surface:#E4E2EB; --surface2:#DBD9E4;
+  --ink:#211F2A; --ink-soft:#565264; --line:#C9C6D6;
+  --accent:#6C58C4; --accent-ink:#5A48A8;
+  --b3:#22766F; --b3-soft:#22766F22;
+  --b4:#A83E6C; --b4-soft:#A83E6C1F;
+  --warn:#8A5A18;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#16151C; --surface:#1E1C26; --surface2:#262432;
+    --ink:#DEDCE8; --ink-soft:#9B97AC; --line:#38354A;
+    --accent:#9B8AE8; --accent-ink:#AC9DF0;
+    --b3:#4FB3A9; --b3-soft:#4FB3A926;
+    --b4:#D9739F; --b4-soft:#D9739F22;
+    --warn:#D9A75B;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#16151C; --surface:#1E1C26; --surface2:#262432;
+  --ink:#DEDCE8; --ink-soft:#9B97AC; --line:#38354A;
+  --accent:#9B8AE8; --accent-ink:#AC9DF0;
+  --b3:#4FB3A9; --b3-soft:#4FB3A926;
+  --b4:#D9739F; --b4-soft:#D9739F22;
+  --warn:#D9A75B;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);
+  font-family:'Source Serif 4',Georgia,serif;font-size:1.02rem;line-height:1.62;}
+.wrap{max-width:46rem;margin:0 auto;padding:2.5rem 1.25rem 5rem;}
+h1,h2,h3,.chip,.eyebrow,.tl{font-family:Rajdhani,'Avenir Next Condensed',sans-serif;}
+h1{font-size:2.7rem;font-weight:700;line-height:1.05;margin:.2rem 0 .4rem;letter-spacing:.01em;text-wrap:balance;}
+h2{font-size:1.45rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;margin:3rem 0 .9rem;text-wrap:balance;}
+h2 .dia{color:var(--accent);margin-right:.45rem;}
+h3{font-size:1.12rem;font-weight:600;text-transform:uppercase;letter-spacing:.07em;margin:1.8rem 0 .5rem;color:var(--ink);}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-weight:600;font-size:.85rem;color:var(--accent-ink);}
+p{margin:.7rem 0;}
+a{color:var(--accent-ink);}
+strong{font-weight:600;}
+code,.mana{font-family:'IBM Plex Mono',monospace;font-size:.86em;background:var(--surface);padding:.08em .3em;border-radius:3px;white-space:nowrap;}
+blockquote{margin:1.1rem 0;padding:.7rem 1rem;border-left:3px solid var(--accent);
+  background:var(--surface);font-style:italic;}
+blockquote p{margin:.2rem 0;}
+ul{padding-left:1.2rem;margin:.6rem 0;}
+li{margin:.35rem 0;}
+hr{border:none;border-top:1px solid var(--line);margin:2.4rem 0;}
+.chip{display:inline-block;font-weight:700;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;
+  padding:.08rem .5rem;border-radius:3px;vertical-align:.08em;margin-right:.15rem;}
+.chip.b3{color:var(--b3);background:var(--b3-soft);border:1px solid var(--b3);}
+.chip.b4{color:var(--b4);background:var(--b4-soft);border:1px solid var(--b4);}
+.vcards{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0;}
+@media (max-width:38rem){.vcards{grid-template-columns:1fr;}}
+.vcard{background:var(--surface);border-top:3px solid var(--vc);padding:.9rem 1rem 1rem;border-radius:0 0 6px 6px;}
+.vcard h3{margin:.1rem 0 .35rem;color:var(--vc);}
+.vcard p{margin:.3rem 0;font-size:.95rem;}
+.bar{display:flex;height:9px;border-radius:4px;overflow:hidden;margin:.6rem 0 .25rem;background:var(--surface2);}
+.bar span{display:block;height:100%;}
+.barlab{font-family:'IBM Plex Mono',monospace;font-size:.74rem;color:var(--ink-soft);}
+table{border-collapse:collapse;width:100%;font-size:.92rem;font-variant-numeric:tabular-nums;}
+.tblwrap{overflow-x:auto;margin:1rem 0;}
+th{font-family:Rajdhani,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-size:.83rem;
+  text-align:left;padding:.45rem .6rem;border-bottom:2px solid var(--line);color:var(--ink-soft);}
+td{padding:.45rem .6rem;border-bottom:1px solid var(--line);vertical-align:top;}
+td.num,th.num{font-family:'IBM Plex Mono',monospace;font-size:.85rem;}
+.gridtab td:first-child{font-weight:600;}
+.ok{color:var(--b3);font-weight:700;}
+.note{font-size:.9rem;color:var(--ink-soft);}
+.callout{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:.8rem 1rem;margin:1rem 0;}
+.callout.warn{border-left:3px solid var(--warn);}
+.tl{display:flex;gap:.8rem;margin:1.2rem 0;}
+.tl .t{flex:none;width:4.6rem;font-weight:700;font-size:1rem;color:var(--accent-ink);
+  text-transform:uppercase;letter-spacing:.05em;padding-top:.15rem;}
+.tl .body{border-left:2px solid var(--line);padding:0 0 .4rem 1rem;}
+.tl .body p{margin:.3rem 0;}
+.cardname{font-weight:600;}
+.small{font-size:.88rem;color:var(--ink-soft);}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<p class="eyebrow">Commander · EDH · Eldrazi</p>
+<h1>Ulalek, Fused Atrocity — Deck Primer</h1>
+<p class="small">Covers <code>ulalek-bracket3.txt</code> <span class="chip b3">B3</span> and <code>ulalek-bracket4.txt</code> <span class="chip b4">B4</span> · combos verified on Commander Spellbook and win turns measured by a 20,000-game Monte&nbsp;Carlo sim per list, 2026-08-24.</p>
+
+<h2><span class="dia">◇</span>What this deck is</h2>
+<p>Ulalek costs <code>{C/W}{C/U}{C/B}{C/R}{C/G}</code> — five hybrid pips, each payable with <em>any</em> color or true colorless. Any five mana casts it, and its five-color identity legalizes devoid cards Zhulodok can never play. Its text is the whole deck:</p>
+<blockquote><p>Whenever you cast an <strong>Eldrazi spell</strong>, you may pay <code>{C}{C}</code>. If you do, <strong>copy all spells you control</strong>, then <strong>copy all other activated and triggered abilities you control</strong>.</p></blockquote>
+<p>Two consequences drive everything below:</p>
+<ul>
+<li><strong>Every Eldrazi spell is double-dipped.</strong> Pay <code>{C}{C}</code> and the spell is copied (a permanent-spell copy becomes a token) <em>and</em> every cast trigger on the stack is duplicated — Ulamog's exile, Kozilek's draw, Elder Deep-Fiend's tap-four becomes tap-eight.</li>
+<li><strong>Copies are not cast.</strong> Token copies don't retrigger "when you cast" abilities. That is why every infinite line needs a <em>trigger copier</em> (Echoes of Eternity, Strionic Resonator) plus a <em>Spawn-token payoff</em> that turns each loop into more <code>{C}</code> than the <code>{C}{C}</code> it costs.</li>
+</ul>
+
+<div class="vcards">
+<div class="vcard" style="--vc:var(--b3)">
+<h3>Bracket 3 — Battlecruiser</h3>
+<p>Wins by combat with doubled haymakers. Its two combo lines are late-game garnish: combo decides under 2% of goldfish games.</p>
+<div class="bar"><span style="width:98%;background:var(--b3)"></span><span style="width:2%;background:var(--accent)"></span></div>
+<p class="barlab">98% combat · 2% combo (sim, by T20)</p>
+</div>
+<div class="vcard" style="--vc:var(--b4)">
+<h3>Bracket 4 — Combo web</h3>
+<p>Same chassis, but the win moves to a 13-line combo web plus tutors, fast mana, and free interaction. Combat is the fallback.</p>
+<div class="bar"><span style="width:76%;background:var(--b4)"></span><span style="width:22%;background:var(--accent)"></span><span style="width:2%;background:var(--surface2)"></span></div>
+<p class="barlab">76% combat · 22% combo — a floor; see caveat below</p>
+</div>
+</div>
+
+<h2><span class="dia">◇</span>How the decks win — simulation</h2>
+<p>20,000 goldfish games per list, same engine. "Combo online" is strict: pieces deployed, Ulalek on the battlefield where required, a castable Eldrazi spell in hand where required, full activation mana spare.</p>
+<div class="tblwrap"><table>
+<tr><th>Metric</th><th class="num">Bracket 3</th><th class="num">Bracket 4</th></tr>
+<tr><td>Ulalek cast</td><td class="num"><strong>T4</strong> med · 87% by T6</td><td class="num"><strong>T4</strong> med · 88% by T6</td></tr>
+<tr><td>7 effective mana</td><td class="num"><strong>T6</strong> median</td><td class="num"><strong>T6</strong> median</td></tr>
+<tr><td>First MV7+ haymaker</td><td class="num"><strong>T8</strong> med · 50% by T8</td><td class="num">T11 med · 34% by T8</td></tr>
+<tr><td>First opponent dead</td><td class="num"><strong>T9</strong> med · 80% by T10</td><td class="num"><strong>T10</strong> med · 65% by T10</td></tr>
+<tr><td>Table cleared solo (120 dmg)</td><td class="num"><strong>T13</strong> median</td><td class="num">T14 median</td></tr>
+<tr><td>Win-combo fully online</td><td class="num">0.7% by T10</td><td class="num"><strong>12% by T10 · 18% by T12</strong></td></tr>
+<tr><td>Infinite-mana line online</td><td class="num">2.3% by T10</td><td class="num">4.5% by T10</td></tr>
+</table></div>
+<div class="callout warn"><p><strong>Read the B4 combo share as a floor.</strong> The sim draws no extra cards (Unsealing's draw-3, The One Ring, Kozilek refills and Mystic Forge top-casts are unmodeled) and plays tutors greedily. The looser 2026-08-21 pass (pieces + 2 mana) put assembly at 17% by T6 / 28% by T8. At a real table B4's combo is the primary win mode.</p></div>
+<ul>
+<li><span class="chip b3">B3</span> Ramp T1–4 → Ulalek T4 → doubled haymakers T6–8 → first kill ~T9, table dead T12–14. You are the archenemy from T6; the combo lines are an exit from stalled games, not the plan.</li>
+<li><span class="chip b4">B4</span> Identical opening; from T5 the tutors assemble a copier + payoff pair around Ulalek. A protected combo turn typically lands <strong>T6–9</strong>, with combat pressure covering disrupted games.</li>
+</ul>
+
+<h2><span class="dia">◇</span>Notable combos</h2>
+<h3>Shared by both versions</h3>
+<p><span class="cardname">Ulalek + Echoes of Eternity + Kozilek's Unsealing</span> → infinite Spawns, infinite <code>{C}</code>, infinite ETB/death triggers, and (via Unsealing's second mode) drawing the deck.<br>
+Cast any Eldrazi creature of <strong>MV 4–6</strong> with <code>{C}{C}</code> spare. Echoes doubles Ulalek's and Unsealing's triggers. Resolve one Ulalek trigger paying <code>{C}{C}</code>: it copies the spell <em>and</em> every other trigger on the stack. The doubled Unsealing triggers make <strong>four</strong> Spawns; sacrifice two to repay <code>{C}{C}</code> on the copied Ulalek trigger; each cycle nets +2 Spawns and re-copies everything.<br>
+<span class="note">MV 4–6 starters in the 99: Thought-Knot Seer, Sowing Mycospawn, Conduit of Ruin, a recast Ulalek — plus Azlask in B3, Spawn-Gang Commander and Writhing Chrysalis in B4. Elder Deep-Fiend is MV8 even via emerge; Ultima and Skittering Cicada aren't Eldrazi.</span></p>
+<p><span class="cardname">Basalt Monolith + Forsaken Monument</span> → infinite <code>{C}</code>. Monument makes Basalt tap for 4 and untap for 3. <strong>Not an instant win</strong> — outlets: cast your whole hand, Kozilek the Great Distortion (refill to 7, keep casting), huge Kozilek's Command / Blast Zone / Eye of Ugin activations, Eldrazi Displacer machine-gun blinks.</p>
+
+<h3><span class="chip b4">B4</span> The combo web</h3>
+<p>The web is a grid — <strong>Ulalek + one copier + one payoff = infinite</strong>. Nearly every pairing works (13 Spellbook-verified lines): redundancy instead of cEDH tutor density.</p>
+<div class="tblwrap"><table class="gridtab">
+<tr><th></th><th>Echoes of Eternity <span class="note">(passive)</span></th><th>Strionic Resonator <span class="note">({2} + tap)</span></th></tr>
+<tr><td>Kozilek's Unsealing</td><td><span class="ok">✓</span> infinite Spawns + draw the deck</td><td><span class="ok">✓</span> same</td></tr>
+<tr><td>Spawn-Gang Commander</td><td><span class="ok">✓</span> <strong>infinite damage</strong> — self-contained: it <em>is</em> the Eldrazi spell</td><td><span class="ok">✓</span> infinite damage — <em>the reference cEDH list's main line</em></td></tr>
+<tr><td>Glaring Fleshraker</td><td><span class="ok">✓</span> <strong>infinite damage</strong> (1 to each opponent per Spawn)</td><td><span class="ok">✓</span></td></tr>
+<tr><td>Writhing Chrysalis</td><td><span class="ok">✓</span> infinite Spawns + counters</td><td><span class="ok">✓</span></td></tr>
+</table></div>
+<ul>
+<li><strong>Cleanest kill — Ulalek + Resonator + Spawn-Gang Commander</strong> (<code>{5}{C}{C}{R}{R}</code> all-in from hand): cast Spawn-Gang, Resonator copies Ulalek's trigger, each loop makes a token Spawn-Gang + 3 Spawns; sacrifice Spawns to Spawn-Gang's ability for infinite damage.</li>
+<li><strong>Fleshraker turns any line lethal</strong>: every Spawn that enters pings all three opponents, so "infinite tokens" becomes infinite damage with Fleshraker merely on the battlefield.</li>
+<li>Fringe redundancy: Ulalek + Writhing Chrysalis + <span class="cardname">Eldritch Immunity</span>, and + <span class="cardname">Abstruse Archaic</span> (whose <code>{1},{T}</code> copies Ulalek's trigger like a one-shot Resonator; Rings of Brighthearth doubles the activation).</li>
+<li><strong>Food Chain + Eternal Scourge</strong> → infinite creature-only mana: exile Scourge for 4, recast from exile for 3, repeat. <strong>+ Glaring Fleshraker = immediate infinite damage</strong> — the deck's fastest line (~T4 with a tutor). Scourge exiling itself when targeted is upside here.</li>
+<li>Infinite-mana backups: Basalt + Rings of Brighthearth; Grim Monolith + Rings + Forsaken Monument. Same outlets as Basalt + Monument.</li>
+</ul>
+<div class="callout"><p><strong>Combo-turn protection:</strong> lead with Cavern of Souls naming Eldrazi (the trigger spell can't be countered); keep Fierce Guardianship / Deflecting Swat / Stubborn Denial up (ferocious is nearly always on); Skittering Cicada gives colorless spells flash — combo on an opponent's end step. Deflecting Swat also retargets removal aimed at Ulalek or Echoes.</p></div>
+
+<h2><span class="dia">◇</span>Notable interactions</h2>
+<h3>The {C}{C} copy menu</h3>
+<ul>
+<li><span class="cardname">Ulamog, the Ceaseless Hunger</span>: exile <strong>four</strong> permanents (both cast triggers resolve even though the token copy dies to the legend rule).</li>
+<li><span class="cardname">Ulamog, the Defiler</span>: two "exile top half of library" triggers — two different opponents, or ¾ of one player's deck.</li>
+<li><span class="cardname">Kozilek</span> (both): doubled refill/draw triggers.</li>
+<li><span class="cardname">Elder Deep-Fiend</span>: flash, tap <strong>eight</strong> permanents on cast — fizzle an attack or tap down two players. Emerge off a Spawn is a discount, not a requirement.</li>
+<li><span class="cardname">World Breaker</span>: exile two artifacts/enchantments/lands; recurs itself for <code>{2}{C}</code> + a land.</li>
+<li><span class="cardname">Emrakul, the World Anew</span>: steal <strong>two</strong> players' boards for the turn (madness for six <code>{C}</code> is the normal casting mode).</li>
+<li><span class="cardname">Kozilek's Command</span>: the copy keeps X — all four modes scale double.</li>
+<li><span class="cardname">Ugin's Binding</span>: bounce two permanents; from the graveyard, <em>every</em> colorless 7+ spell you cast exiles it for a one-sided mass bounce.</li>
+<li><span class="cardname">Desecrate Reality</span>: up to two even-MV exiles per opponent + double Adamant reanimation.</li>
+<li><span class="cardname">Zhulodok</span> in the 99: your 7+ colorless spells from hand get cascade ×2 — and Ulalek copies the cascade triggers too. One Ulamog with both legends out is four cascades deep.</li>
+</ul>
+<h3>Engine &amp; utility</h3>
+<ul>
+<li><span class="cardname">Sanctum of Ugin</span>: any colorless 7+ spell → fetch <strong>any colorless creature</strong> to hand. B3 chains haymakers; B4 fetches combo creatures (Fleshraker, Spawn-Gang, Eternal Scourge are all colorless).</li>
+<li><span class="cardname">Eye of Ugin</span>: −2 on every colorless Eldrazi spell; the late-game <code>{7},{T}</code> activation is a repeatable colorless-creature tutor.</li>
+<li><span class="cardname">Conduit of Ruin</span> + <span class="cardname">Mystic Forge</span> <span class="chip b4">B4</span>: fetch the 7+ creature to the top, cast it off the top — often the same turn, with the discounts stacked.</li>
+<li><span class="cardname">Kozilek's Unsealing</span> is the best engine even off-combo: MV 4–6 creatures make 2 Spawns, 7+ draw 3. With Echoes, doubled — 4 Spawns or draw 6.</li>
+<li><span class="cardname">Eldrazi Displacer + Thought-Knot Seer</span>: repeatable hand-strip (TKS is a real ETB). Displacer also resets Ulamog the Defiler's counters, untaps the team out of Deep-Fiend mode, or blanks attackers. Most haymakers have <em>cast</em> triggers — Displacer does <strong>not</strong> rebuy those.</li>
+<li><span class="cardname">All Is Dust</span> sacrifices <em>colored</em> permanents — your devoid board survives. Adjudicated caveat: it also pops your own Imprisoned in the Moon. Sweep first, moon second (same for Ugin −X).</li>
+<li><span class="cardname">Warping Wail</span> counters sorceries — most board wipes at these tables.</li>
+<li><span class="chip b3">B3</span> <span class="cardname">Path of Annihilation + Azlask</span>: Path gives every Eldrazi "{T}: any color", which is what makes Azlask's <code>{W}{U}{B}{R}{G}</code> mass-pump / annihilator activation reachable in a colorless deck.</li>
+<li><span class="chip b3">B3</span> <span class="cardname">From Beyond</span>: upkeep Spawn ramp; sacrifices into a tutor for any Eldrazi <em>card</em> — including <strong>Echoes of Eternity</strong> (Kindred Eldrazi enchantment), i.e. half the combo. It cannot fetch Kozilek's Unsealing (devoid, not an Eldrazi card).</li>
+<li><span class="cardname">Ugin's Labyrinth</span> wants a 7+ colorless card imprinted from hand (20+ hits in both lists) — don't fetch it when your hand is all small.</li>
+<li><span class="cardname">Eldritch Immunity</span> overloaded (<code>{4}{C}</code>): the whole team gets protection from each color — ignore colored blockers, removal, and sweepers on the swing turn.</li>
+</ul>
+
+<h2><span class="dia">◇</span>Top-priority cards</h2>
+<p><strong>Protect these, in order:</strong></p>
+<ul>
+<li><strong>1 · Ulalek</strong> — every plan runs through the copy trigger. <span class="cardname">Lightning Greaves</span> the turn it lands; it eats every removal spell at the table. (Not of This World can't protect a naked Ulalek — its free mode needs power 7.)</li>
+<li><strong>2 · Echoes of Eternity</strong> — the strongest permanent in either list: doubles every trigger and copies every colorless spell, combo or not. In B4 it's the #1 tutor target; informed opponents kill it on sight.</li>
+<li><strong>3 · Kozilek's Unsealing</strong> — the draw engine; quietly wins long games alone.</li>
+<li><strong>4 · Eye of Ugin / Ancient Tomb / Eldrazi Temple</strong> — the difference between T4 and T6 Ulalek; enemy Wastelands come here.</li>
+<li><strong>5</strong> <span class="chip b4">B4</span> <strong>Mystic Forge + The One Ring</strong> — the grind engines that refuel a disrupted combo turn.</li>
+<li><strong>6 · Forsaken Monument</strong> — team +2/+2, <code>{C}</code> doubling, half an infinite-mana line.</li>
+</ul>
+<p><strong>What opponents will (correctly) target:</strong> Echoes, Ulalek, Forsaken Monument; in B4 also Food Chain and Resonator. Deploy the <em>second</em> combo piece the turn you go off, not turns earlier.</p>
+<p><strong>Opening hand:</strong> 2–4 lands including a Tomb/Temple-class land or a 2+ mana rock, plus a cost reducer or an engine piece (Unsealing / Shadow in the Warp / B4 tutor). A hand that casts Ulalek by T4 with one engine behind it is a keep; five haymakers is not. Mulligan for the curve, not the top end.</p>
+
+<h2><span class="dia">◇</span>What to retrieve first</h2>
+<h3>Land tutors — Crop Rotation (instant!), Sylvan Scrying, Sowing Mycospawn</h3>
+<div class="tblwrap"><table>
+<tr><th>Situation</th><th>Get</th></tr>
+<tr><td>T1–3, developing</td><td><strong>Eye of Ugin</strong>, else Eldrazi Temple / Ancient Tomb</td></tr>
+<tr><td>The turn before a 7-drop</td><td><strong>Sanctum of Ugin</strong> — converts the haymaker into the next one, or a combo creature in B4</td></tr>
+<tr><td>Blue player holding mana</td><td><strong>Cavern of Souls</strong>, naming Eldrazi</td></tr>
+<tr><td>Problem permanent / lands</td><td>Blast Zone / <strong>Wasteland</strong></td></tr>
+<tr><td><span class="chip b4">B4</span> artifact plan online</td><td><strong>Urza's Saga</strong> → Sol Ring, Mana Vault, Lotus Petal, Mox Diamond</td></tr>
+</table></div>
+<p class="note">Crop Rotation at instant speed: end-of-turn Sanctum with a haymaker in hand, or an on-the-spot Cavern against counter mana. Kicked Sowing Mycospawn also Strip-Mines a problem land.</p>
+<h3><span class="chip b4">B4</span> Black tutors — Demonic / Vampiric / Wishclaw</h3>
+<ul>
+<li><strong>Ulalek out + a payoff in play</strong> → <span class="cardname">Echoes of Eternity</span> (wins with any Eldrazi spell in hand).</li>
+<li><strong>Ulalek + Echoes out</strong> → cheapest payoff: <span class="cardname">Kozilek's Unsealing</span> (an engine even if disrupted) or <span class="cardname">Spawn-Gang Commander</span> (spell + payoff in one card).</li>
+<li><strong>No board, T2–3</strong> → fast mana (Sol Ring / Mana Vault) or <span class="cardname">Food Chain</span> (Scourge follows; Sanctum/Eye convert into Fleshraker for the kill).</li>
+<li><strong>Repeatedly disrupted</strong> → <span class="cardname">The One Ring</span>, grind, reassemble — the web is redundant enough.</li>
+</ul>
+<p class="note">Vampiric Tutor: end of the turn before your combo turn. Wishclaw: activate only on the turn you win, so the opponents' borrow never happens.</p>
+<h3>Creature tutors</h3>
+<p><span class="cardname">Conduit of Ruin</span> only fetches <strong>MV 7+ colorless creatures</strong> — default Ulamog the Ceaseless Hunger (removal + clock) or Kozilek the Great Distortion (refill); with Mystic Forge out the topped card is castable immediately. <span class="cardname">Sanctum</span> / <span class="cardname">Eye of Ugin</span> fetch <em>any</em> colorless creature: B3 chains haymakers; B4 fetches Fleshraker → Spawn-Gang → Eternal Scourge when a combo is in reach.</p>
+
+<h2><span class="dia">◇</span>Piloting by phase</h2>
+<div class="tl"><div class="t">T1–3</div><div class="body">
+<p>Land, rock, reducer. Only green pips (Nature's Lore / Beast Within, ~19 sources) and B4 black (tutors) matter — the rainbow lands and Talisman of Dominance exist for exactly that. Mox Diamond only with a spare land in hand.</p>
+</div></div>
+<div class="tl"><div class="t">T4–5</div><div class="body">
+<p>Ulalek + Greaves. Hold Warping Wail / Stubborn Denial when possible — the adjudicated danger window is <strong>T5–8 as archenemy</strong>, not the early game. In B4, tutor per the priorities above but <em>bank</em> the second combo piece in hand.</p>
+</div></div>
+<div class="tl"><div class="t">T6+</div><div class="body">
+<p><span class="chip b3">B3</span> Every Eldrazi cast comes with <code>{C}{C}</code> held. Sequence: threat with cast trigger → copy → Sanctum fetch → next threat. Eldritch Immunity and Cavern casts break through interaction; All Is Dust resets go-wide boards and mostly misses you. Close with doubled Ulamogs and Ugin ultimates; Echoes + Unsealing is the escape hatch from stalemates.</p>
+<p><span class="chip b4">B4</span> Count to a protected combo turn: copier + payoff + Eldrazi spell + activation mana + one piece of protection (or Cavern / Cicada flash). Forced to act early? Battlecruiser mode still clears tables by T14 even when the web never assembles.</p>
+</div></div>
+<div class="callout"><p><strong>Threat assessment:</strong> both lists lose most often in their own T5–8 archenemy window. Imprisoned in the Moon buys those turns on the scariest commander — but your own All Is Dust / Ugin −X frees a moon'd commander, so sweep first, moon second.</p></div>
+
+<hr>
+<p class="small"><strong>Methodology.</strong> 20,000 games per list, same engine (extends the repo goldfish script): mulligan keeping 2–5 lands; land + greedy rocks/reducers each turn; Ancient Tomb / Eldrazi Temple / Ugin's Labyrinth = 2 mana, Eye of Ugin = −2; commander at 5 + tax; threats attack three 40-life opponents; Ulalek's <code>{C}{C}</code> copy doubles Eldrazi bodies when mana allows. This run adds strict per-turn combo checks of the Spellbook-verified lines, and for B4 models the black tutors (fetch the missing piece of the most complete line) and Urza's Saga. Not modeled: opponent interaction (overstates speed); annihilator, Ulamog mill, cascade, and all draw engines (understates speed and materially understates B4 combo assembly). Full text version: <code>deck/ulalek-primer.md</code>.</p>
+</div>
+</body>
+</html>

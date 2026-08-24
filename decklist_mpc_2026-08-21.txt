@@ -1,0 +1,135 @@
+1x Ulalek, Fused Atrocity (m3c) 16
+1x Abstruse Archaic (cmm) 712
+1x Azlask, the Swelling Scourge (m3c) 9
+1x Chittering Dispatcher (m3c) 63
+1x Conduit of Ruin (bfz) 4
+1x Elder Deep-Fiend (plst) EMN-5
+1x Eldrazi Displacer (m3c) 169
+1x Eldrazi Linebreaker (mh3) 117
+1x Emrakul, the World Anew (mh3) 381
+1x Flayer of Loyalties (cmm) 747
+1x Herald of Kozilek (bfz) 205
+1x Hideous Taskmaster (m3c) 57
+1x It That Heralds the End (mh3) 385
+1x Kozilek, the Broken Reality (mh3) 382
+1x Kozilek, the Great Distortion (cmm) 668
+1x Nulldrifter (mh3) 13
+1x Reality Smasher (sch) 31
+1x Skittering Cicada (cmm) 717
+1x Sowing Mycospawn (mh3) 170
+1x Thief of Existence (mh3) 174
+1x Thought-Knot Seer (ogw) 9
+1x Ulamog, the Ceaseless Hunger (cmm) 670
+1x Ulamog, the Defiler (mh3) 383
+1x Ultima, Origin of Oblivion (fin) 2
+1x World Breaker (eoc) 112
+1x Zhulodok, Void Gorger (cmm) 704
+1x All Is Dust (mm2) 1
+1x Nature's Lore (5ed) 316
+1x Sylvan Scrying (tsr) 367
+1x Three Visits (sld) 1676
+1x Beast Within (sld) 2671
+1x Crop Rotation (soa) 51
+1x Desecrate Reality (cmm) 746
+1x Eldritch Immunity (m3c) 33
+1x Kozilek's Command (mh3) 11
+1x Kozilek's Return (m3c) 214
+1x Mana Drain (otp) 11
+1x Not of This World (plst) ROE-8
+1x Stubborn Denial (ktk) 56
+1x Ugin's Binding (mh3) 328
+1x Warping Wail (ogw) 12
+1x Arcane Signet (sld) 916
+1x Basalt Monolith (30a) 524
+1x Fellwar Stone (sld) 7062
+1x Forsaken Monument (pznr) 244p
+1x Lightning Greaves (ncc) 371
+1x Mana Vault (3ed) 263
+1x Mind Stone (plst) WTH-153
+1x Mystic Forge (brr) 99
+1x Sol Ring (mic) 162
+1x Talisman of Curiosity (drc) 140
+1x Talisman of Impulse (m3c) 311
+1x Urza's Incubator (dmr) 392
+1x Worn Powerstone (plst) USG-318
+1x Awakening Zone (soc) 262
+1x Echoes of Eternity (pmh3) 4p
+1x Eldrazi Conscription (sld) 1218
+1x From Beyond (bfz) 167
+1x Imprisoned in the Moon (sld) 1102
+1x Kozilek's Unsealing (mh3) 65
+1x Path of Annihilation (mh3) 165
+1x Shadow in the Warp (40k) 140
+1x Summon: Bahamut (fin) 356
+1x Ugin, the Ineffable (war) 2
+1x Ugin, the Spirit Dragon (frf) 1
+1x Ancient Tomb (eos) 1
+1x Blast Zone (eos) 2
+1x Bonders' Enclave (eos) 4
+1x Breeding Pool (eoe) 278
+1x Cascading Cataracts (eos) 5
+1x Cavern of Souls (avr) 226
+1x City of Brass (2x2) 403
+1x Command Tower (sld) 2812
+1x Eldrazi Temple (eos) 14
+1x Exotic Orchard (tmc) 66
+1x Eye of Ugin (mm2) 242
+1x Forest (hob) 198
+1x Island (hob) 195
+1x Karplusan Forest (blc) 314
+1x Ketria Triome (piko) 250p
+1x Mana Confluence (eos) 25
+1x Misty Rainforest (mh2) 438
+1x Mountain (fdn) 289
+1x Path of Ancestry (sld) 2684
+1x Prismatic Vista (sld) 2699
+1x Sanctum of Ugin (bfz) 242
+1x Scalding Tarn (mh2) 439
+1x Secluded Courtyard (ltc) 330
+1x Shivan Reef (eoc) 179
+1x Snow-Covered Wastes (mb2) 121
+1x Steam Vents (pgrn) 257p
+1x Stomping Ground (gtc) 247
+1x Three Tree City (blb) 338
+1x Tomb of the Spirit Dragon (m3c) 397
+1x Ugin's Labyrinth (pmh3) 233p
+1x Wasteland (ltc) 376
+1x Wooded Foothills (mh3) 441
+1x Yavimaya Coast (m3c) 410
+1x Yavimaya, Cradle of Growth (m3c) 409
+1x Ugin, Eye of the Storms (tdm) 382
+1x Eternal Scourge (emn) 7
+1x Glaring Fleshraker (mh3) 7
+1x Sire of Seven Deaths (pfdn) 1p
+1x Sire of Stagnation (bfz) 206
+1x Spawn-Gang Commander (mh3) 140
+1x Writhing Chrysalis (mh3) 208
+1x Demonic Tutor (sld) 1856
+1x Deflecting Swat (cmm) 698
+1x Fierce Guardianship (cmm) 694
+1x Vampiric Tutor (dmr) 314
+1x Grim Monolith (ulg) 126
+1x Lotus Petal (plst) TMP-294
+1x Mox Diamond (sth) 138
+1x Rings of Brighthearth (ltc) 352
+1x Strionic Resonator (moc) 384
+1x Talisman of Dominance (msc) 219
+1x The Great Henge (ltc) 348
+1x The One Ring (ltr) 451
+1x Wishclaw Talisman (fdn) 617
+1x Food Chain (sld) 1369
+1x Urza's Saga (slc) 21
+1x Forbidden Orchard (c16) 296
+1x Spire of Industry (brc) 203
+1x Starting Town (fin) 289
+1x Tarnished Citadel (ody) 329
+1x t:Beast (tmsc) 27
+1x t:Construct (tbig) 3
+1x t:Copy (tmh3) 37
+1x t:Eldrazi Scion (tbfz) 4
+1x t:Eldrazi Scion (togw) 6
+1x t:Eldrazi Spawn (tmh3) 38
+1x t:Eldrazi Spawn (tsoc) 1
+1x Manifest (tsoc) 30
+1x t:Spirit (twar) 1
+1x t:Spirit (tc16) 1
