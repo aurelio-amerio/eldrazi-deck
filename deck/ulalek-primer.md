@@ -2,6 +2,8 @@
 
 *Written 2026-08-24. Covers `deck/ulalek-bracket3.txt` and `deck/ulalek-bracket4.txt`. Combos verified against Commander Spellbook on both exact lists on this date; win-turn numbers come from a fresh 20,000-game Monte Carlo simulation of each list (methodology at the bottom).*
 
+*See also `ulalek-b3-playbook.md` (2026-08-26) — the bracket-3 play guide: non-infinite damage packages, tutor targets, deployment priorities, and stack tricks.*
+
 ---
 
 ## 1. What this deck is

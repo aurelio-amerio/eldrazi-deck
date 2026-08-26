@@ -54,6 +54,13 @@ in quality; see decision log in `deck/ulalek-bracket3.txt`). Out: Null Elemental
 only, frequently dead), Eldrazi Mimic (−1.21€). In: Beast Within, Imprisoned in the Moon (+0.79€,
 priced 2026-08-19). No Game Changer or combo-policy implications.
 
+## 2026-08-26 resilience pass
+
+Three swaps targeting board-wipe vulnerability and sorcery-speed telegraphing (see decision log in
+`deck/ulalek-bracket3.txt`). Out: Blast Zone, Petrified Hamlet, Desecrate Reality (−3.77€). In:
+Emergence Zone, Winding Canyons, Heroic Intervention (+28.37€, priced 2026-08-26). No Game Changer
+or combo-policy implications; interaction stays at 12 slots.
+
 ## Owned (0€, from collection)
 | Card | Note |
 |---|---|
@@ -76,7 +83,7 @@ priced 2026-08-19). No Game Changer or combo-policy implications.
 | Scalding Tarn | 26.64 | |
 | Misty Rainforest | 25.66 | |
 
-## Buy (total: 373.48€, 86 cards)
+## Buy (total: 398.08€, 86 cards)
 | Card | EUR |
 |---|---|
 | Wasteland | 23.39 |
@@ -91,6 +98,8 @@ priced 2026-08-19). No Game Changer or combo-policy implications.
 | Flayer of Loyalties | 15.11 |
 | Ulamog, the Defiler | 15.05 |
 | Ketria Triome | 13.64 |
+| Heroic Intervention | 13.37 |
+| Winding Canyons | 12.71 |
 | Ugin, the Spirit Dragon | 11.01 |
 | Skittering Cicada | 10.81 |
 | Yavimaya, Cradle of Growth | 10.45 |
@@ -113,8 +122,8 @@ priced 2026-08-19). No Game Changer or combo-policy implications.
 | Lightning Greaves | 3.02 |
 | Not of This World | 2.87 |
 | Basalt Monolith | 2.85 |
-| Desecrate Reality | 2.61 |
 | Nature's Lore | 2.46 |
+| Emergence Zone | 2.29 |
 | Nulldrifter | 1.99 |
 | Sowing Mycospawn | 1.74 |
 | Sanctum of Ugin | 1.36 |
@@ -128,7 +137,6 @@ priced 2026-08-19). No Game Changer or combo-policy implications.
 | Fellwar Stone | 0.93 |
 | Karplusan Forest | 0.92 |
 | From Beyond | 0.86 |
-| Petrified Hamlet | 0.80 |
 | Echoes of Eternity | 0.75 |
 | Eldrazi Displacer | 0.75 |
 | Ultima, Origin of Oblivion | 0.69 |
@@ -143,7 +151,6 @@ priced 2026-08-19). No Game Changer or combo-policy implications.
 | Tomb of the Spirit Dragon | 0.41 |
 | Talisman of Impulse | 0.39 |
 | Herald of Kozilek | 0.37 |
-| Blast Zone | 0.36 |
 | Ulalek, Fused Atrocity (commander) | 0.35 |
 | Azlask, the Swelling Scourge | 0.34 |
 | Awakening Zone | 0.33 |
@@ -167,8 +174,8 @@ priced 2026-08-19). No Game Changer or combo-policy implications.
 | Path of Annihilation | 0.10 |
 
 ## Cost summary
-- Cash outlay if all Buy cards are purchased: **373.48€** (86 cards; the seven 2026-08-19 adds are
-  priced at that day's snapshot, the rest at 2026-08-18)
+- Cash outlay if all Buy cards are purchased: **398.08€** (86 cards; the seven 2026-08-19 adds
+  priced at that day's snapshot, the three 2026-08-26 adds at that day's, the rest at 2026-08-18)
 - Avoided by proxying (10 cards ≥25€): 472.52€
 - The 25€ proxy threshold is a default — since proxying freely is on the table, any Buy card can
   move to the proxy pile to cut the outlay further (the top 12 Buy cards alone are ≈213€).

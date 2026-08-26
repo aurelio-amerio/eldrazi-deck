@@ -2,7 +2,6 @@
 
 // Lands (34)
 1 Ancient Tomb
-1 Blast Zone
 1 Bonders' Enclave
 1 Breeding Pool
 1 Cascading Cataracts
@@ -10,6 +9,7 @@
 1 City of Brass
 1 Command Tower
 1 Eldrazi Temple
+1 Emergence Zone
 1 Exotic Orchard
 1 Eye of Ugin
 1 Forest
@@ -20,7 +20,6 @@
 1 Misty Rainforest
 1 Mountain
 1 Path of Ancestry
-1 Petrified Hamlet
 1 Prismatic Vista
 1 Sanctum of Ugin
 1 Scalding Tarn
@@ -32,6 +31,7 @@
 1 Tomb of the Spirit Dragon
 1 Ugin's Labyrinth
 1 Wasteland
+1 Winding Canyons
 1 Wooded Foothills
 1 Yavimaya Coast
 1 Yavimaya, Cradle of Growth
@@ -69,7 +69,7 @@
 // Interaction & Removal (12)
 1 All Is Dust
 1 Beast Within
-1 Desecrate Reality
+1 Heroic Intervention
 1 Imprisoned in the Moon
 1 Kozilek's Return
 1 Mana Drain
@@ -143,3 +143,26 @@
 //        Ugin Spirit Dragon -X destroy it and release the lock - time the sweeper accordingly.
 //        Chosen over Song of the Dryads: same lock, 0.15EUR vs 4.71EUR, spreads pips off green).
 //   No Game Changer or combo-policy implications; interaction 11 -> 12 slots.
+// 2026-08-26 resilience pass (owner-identified weaknesses: board wipes, and one-piece-per-turn
+// sorcery-speed deployment telegraphing into them):
+//   OUT: Blast Zone (owner ruling: too specific/hard to use, hits exactly one MV),
+//        Petrified Hamlet (narrow naming effect), Desecrate Reality (same "too restrictive"
+//        pattern - 7-mana instant, even-MV-only, one target per opponent).
+//   IN:  Emergence Zone (sac: everything has flash this turn - deploy on the last opponent's
+//        end step so a sorcery-speed wipe catches at most one turn of development),
+//        Winding Canyons (repeatable creature flash every turn; Skittering Cicada redundancy
+//        in a land slot), Heroic Intervention ({1}{G}, ~19 G sources; hexproof+indestructible
+//        on PERMANENTS - saves Echoes/Unsealing/rocks too, not just creatures; note it does
+//        not beat exile wipes like Farewell).
+//   Owner rulings recorded: Eldrazi Linebreaker is super strong - keep; Chittering Dispatcher
+//   valued as one of the few cheap creatures - keep; Tomb of the Spirit Dragon kept over
+//   Blast Zone. Flawless Maneuver and Eldrazi Monument considered, not slotted (no cut).
+//   Interaction stays 12 slots; no Game Changer or combo-policy implications.
+// 2026-08-26 GC-slot review (evaluated, NOT applied - owner deferred): The One Ring was
+//   considered as a Crop Rotation replacement (colorless, 100% castable, protection turn +
+//   escalating draw; nothing in the 99 tutors for it, but Crop is equally unfetchable).
+//   Owner decided no sub for now - Crop Rotation stays; GCs remain Mana Vault, Ancient Tomb,
+//   Crop Rotation. Rejected in the same review: Teferi's Protection and the black tutors on
+//   castability (4 unconditional W sources = 41-49% in the danger window - Sire of Stagnation
+//   precedent); Kinnan (Kinnan+Basalt = early 2-card infinite, house policy). Runners-up if
+//   ever revisited: Fierce Guardianship, Deflecting Swat, Grim Monolith.
