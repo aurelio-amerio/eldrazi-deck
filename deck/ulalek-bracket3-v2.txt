@@ -1,0 +1,174 @@
+1 Ulalek, Fused Atrocity
+
+// ===== DRAFT v2 (2026-08-27) — proposal, not yet final. See deck/ulalek-v2-proposal.md =====
+
+// Lands (36)
+1 Ancient Tomb
+1 Bonders' Enclave
+1 Boseiju, Who Endures
+1 Breeding Pool
+1 Cavern of Souls
+1 City of Brass
+1 Command Tower
+1 Eldrazi Temple
+1 Emergence Zone
+1 Exotic Orchard
+1 Eye of Ugin
+1 Karplusan Forest
+1 Ketria Triome
+1 Mana Confluence
+1 Misty Rainforest
+1 Path of Ancestry
+1 Planar Nexus
+1 Reflecting Pool
+1 Sanctum of Ugin
+1 Scalding Tarn
+1 Steam Vents
+1 Stomping Ground
+1 Three Tree City
+1 Tomb of the Spirit Dragon
+1 Tropical Island
+1 Ugin's Labyrinth
+1 Urza's Mine
+1 Urza's Power Plant
+1 Urza's Tower
+1 Vesuva
+1 Volcanic Island
+1 Wasteland
+1 Winding Canyons
+1 Wooded Foothills
+1 Yavimaya Coast
+1 Yavimaya, Cradle of Growth
+
+// Ramp & Cost Reduction (16)
+1 Arcane Signet
+1 Basalt Monolith
+1 Conduit of Ruin
+1 Fellwar Stone
+1 Forsaken Monument
+1 Herald of Kozilek
+1 It That Heralds the End
+1 Mana Vault
+1 Mind Stone
+1 Nature's Lore
+1 Sol Ring
+1 Talisman of Curiosity
+1 Talisman of Impulse
+1 Three Visits
+1 Thran Dynamo
+1 Urza's Incubator
+
+// Draw & Engines (10)
+1 Crop Rotation
+1 Echoes of Eternity
+1 From Beyond
+1 Kozilek's Command
+1 Kozilek's Unsealing
+1 Mystic Forge
+1 Path of Annihilation
+1 Shadow in the Warp
+1 Sylvan Scrying
+1 The Great Henge
+
+// Interaction & Removal (12)
+1 All Is Dust
+1 Beast Within
+1 Heroic Intervention
+1 Imprisoned in the Moon
+1 Kozilek's Return
+1 Mana Drain
+1 Not of This World
+1 Stubborn Denial
+1 Ugin's Binding
+1 Warping Wail
+1 Ugin, the Ineffable
+1 Ugin, the Spirit Dragon
+
+// Big Threats & Protection (3)
+1 Eldritch Immunity
+1 Lightning Greaves
+1 Ugin, Eye of the Storms
+
+// Creatures (22)
+1 Abstruse Archaic
+1 Azlask, the Swelling Scourge
+1 Chittering Dispatcher
+1 Elder Deep-Fiend
+1 Eldrazi Linebreaker
+1 Emrakul, the World Anew
+1 Flayer of Loyalties
+1 Hideous Taskmaster
+1 Kozilek, the Broken Reality
+1 Kozilek, the Great Distortion
+1 Liberator, Urza's Battlethopter
+1 Reality Smasher
+1 Roaming Throne
+1 Skittering Cicada
+1 Sowing Mycospawn
+1 Thief of Existence
+1 Thought-Knot Seer
+1 Ulamog, the Ceaseless Hunger
+1 Ulamog, the Defiler
+1 Ultima, Origin of Oblivion
+1 World Breaker
+1 Zhulodok, Void Gorger
+
+// --- Decision log ---
+// 2026-08-27 v2 draft (external feedback pass — more lands, faster mana, Urza package;
+// full rationale + card-by-card evaluation of both example decks in deck/ulalek-v2-proposal.md):
+//   OUT -> IN, 10 swaps:
+//     Snow-Covered Wastes   -> Planar Nexus         (every nonbasic land type: single-handedly
+//                                                    "powers" any Urza land; Locus; {1}: any color)
+//     Cascading Cataracts   -> Urza's Tower          }  Urza package: any one Urza land + Nexus
+//     Shivan Reef           -> Urza's Mine           }  is 4-5 mana from 2 lands; all fetchable
+//     Awakening Zone        -> Urza's Power Plant    }  via Crop Rotation/Sylvan Scrying/Mycospawn
+//     Eldrazi Conscription  -> Reflecting Pool      (2nd Command Tower; copies Tomb/Temple "2" too)
+//     Summon: Bahamut       -> Boseiju, Who Endures (interaction in a land slot)
+//     Eldrazi Displacer     -> Roaming Throne       (names Eldrazi; DOUBLES ULALEK'S OWN TRIGGER =
+//                                                    two {C}{C} copy-everything rounds per cast;
+//                                                    also doubles annihilator/ETB/LTB/Azlask.
+//                                                    NOTE: does NOT double "when you cast" triggers
+//                                                    of spells on the stack (CR 109.2, "creature you
+//                                                    control" = permanent) — that's Echoes' job)
+//     Emergence Zone        -> Liberator, Urza's Battlethopter (same job, repeatable: flash for
+//                                                    ~the whole deck; deploy on end steps to dodge
+//                                                    sorcery wipes — upgrades the 2026-08-26
+//                                                    resilience plan; Winding Canyons stays as the
+//                                                    creature-flash backup)
+//     Worn Powerstone       -> Thran Dynamo         (feedback: more/denser ramp)
+//     Nulldrifter           -> Mystic Forge         (Forge is in BOTH example decks; ~80% of deck
+//                                                    castable off the top = Nulldrifter's card-
+//                                                    advantage job, every turn; Nulldrifter was the
+//                                                    weakest cast trigger in the crowded 7+ slot.
+//                                                    Alternate cut if no big should go: Abstruse
+//                                                    Archaic)
+//   2026-08-27 owner rulings (recorded, don't re-litigate): KEEP Herald of Kozilek, KEEP
+//   Hideous Taskmaster, KEEP Path of Annihilation; Devourer of Destiny REJECTED.
+//   2026-08-27 follow-up (owner): Forest -> Emergence Zone (Zone back in as wipe insurance /
+//   Liberator backup; also flashes NONcreature spells, e.g. EOT All Is Dust). Cost accepted:
+//   Nature's Lore/Three Visits down to 3 targets (Breeding Pool/Stomping Ground/Ketria — they
+//   fetch untapped and preferred those anyway; Boseiju is NOT a Forest card), Prismatic Vista
+//   down to 2 basics (Island/Mountain). Lands stay 36.
+//   2026-08-27 follow-up 2 (owner): Prismatic Vista -> Vesuva. Audit confirmed Vista was the
+//   ONLY basic-only fetcher (Lore/Visits = Forest CARD incl. duals; Misty/Scalding/Foothills =
+//   typed; Crop/Scrying/Mycospawn = any land), and with 2 basic targets it was the weakest
+//   land in the list. Vesuva: enters tapped, but = Temple/Tomb #2 or Tower #2 (Tower +
+//   Vesuva-Tower + Nexus = 7 mana from 3 lands), or copy the table's best land.
+//   2026-08-27 follow-up 3 (owner): APPLIED Island -> Tropical Island, Mountain -> Volcanic
+//   Island (nothing basic-only remains, so duals are strictly better fixing for the same
+//   fetches; Volcanic serves the kept Herald {1}{U}{R} and Mana Drain {U}{U}; Tropical is a
+//   Lore/Visits target). Owner rationale for accepting ZERO basics: deck was ~94% nonbasic
+//   anyway, and mass land denial is forbidden at bracket 3. Residual edge case: Blood
+//   Moon-style replacement effects (not MLD by WotC's definition) and opponents'
+//   Field of Ruin/Ghost Quarter — revisit basics only if those appear in the pod.
+//   Proxy note: Tropical/Volcanic are >=25EUR -> proxy candidates for the buylist.
+//   Sim (20k games/side, same script both sides): 7 mana by T5 51%->53%, by T6 68%->71%;
+//   commander by T4 63%->65%. Urza pair "powered" by T6 in ~18% of games (upside wedge, not
+//   engine). Haymaker-in-hand by T6 dips 48%->40% from losing 3 of 12 MV7+ pieces
+//   (Conscription, Bahamut, Nulldrifter) — Forge/Sanctum/Conduit offset this but aren't modeled.
+//   Combos re-verified (Commander Spellbook): still exactly the two allowed late-game lines
+//   (Basalt+Forsaken Monument; Ulalek+Echoes+Unsealing). No new Game Changers — still at cap 3
+//   (Mana Vault, Ancient Tomb, Crop Rotation); Boseiju confirmed NOT a GC (Aug-2026 list).
+//   Feedback's "Basalt + Eldrazi Monument" concern = Basalt + FORSAKEN Monument, already
+//   adjudicated 2026-08-19 as a deliberate late-game keep (rule-0 it at the table).
+// (v1 history lives in deck/ulalek-bracket3.txt — unchanged.)
