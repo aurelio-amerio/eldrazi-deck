@@ -14,6 +14,7 @@
 1 Emergence Zone
 1 Exotic Orchard
 1 Eye of Ugin
+1 Hinterland Harbor
 1 Karplusan Forest
 1 Ketria Triome
 1 Mana Confluence
@@ -25,15 +26,14 @@
 1 Scalding Tarn
 1 Steam Vents
 1 Stomping Ground
+1 Sulfur Falls
 1 Three Tree City
 1 Tomb of the Spirit Dragon
-1 Tropical Island
 1 Ugin's Labyrinth
 1 Urza's Mine
 1 Urza's Power Plant
 1 Urza's Tower
 1 Vesuva
-1 Volcanic Island
 1 Wasteland
 1 Winding Canyons
 1 Wooded Foothills
@@ -330,4 +330,36 @@
 //   Bracket unchanged: Conscription is not a Game Changer, GC count stays at the cap of 3.
 //   Spellbook re-run on the exact post-restore 99: still EXACTLY the two allowed late-game
 //   lines. Conscription's only near-line needs Rafiq of the Many, which is not in the deck.
+//   2026-08-27 follow-up 6 (owner: Volcanic Island is too expensive to actually play, even as
+//   the flagged proxy candidate — price-driven exception to the "price never decides" rule,
+//   explicitly owner-ruled for this slot).
+//     Volcanic Island -> Sulfur Falls
+//   Premise correction recorded during the decision: the deck's fetches and land tutors
+//   (Misty/Scalding/Foothills, Crop Rotation, Sowing Mycospawn, Nature's Lore, Three Visits)
+//   put lands onto the battlefield UNTAPPED unless the land's own text says otherwise — a
+//   fetched Volcanic entered untapped. Molten Tributary (true Island Mountain, 0.22EUR) was
+//   considered for keeping fetchability and REJECTED: it enters tapped every time, fetched or
+//   drawn, and the fetchable-U/R niche is already covered (Scalding -> Steam Vents, Misty ->
+//   Tropical, Foothills -> Stomping Ground). Sulfur Falls (0.29EUR) has NO basic land types
+//   (checks "you control an Island or a Mountain" only), so it is invisible to all three
+//   fetches — accepted; in exchange it enters untapped from T2 on in ~all games (Tropical,
+//   Steam Vents, Breeding Pool and Ketria all carry the checked types; T1 it is always
+//   tapped). U/R duty unchanged: Herald {1}{U}{R}, Mana Drain {U}{U}. Lands stay 36; no
+//   GC/combo implications (checked: Sulfur Falls is not a Game Changer, adds no combo line).
+//   Buylist delta: Volcanic Island (proxy candidate) out entirely, IN Sulfur Falls 0.29EUR.
+//   2026-08-27 follow-up 7 (owner: same price call as follow-up 6, for the other dual).
+//     Tropical Island -> Hinterland Harbor
+//   Same colors (G/U), same check-land template as Sulfur Falls, 0.33EUR. Knock-on effects
+//   accepted and recorded:
+//     - Nature's Lore / Three Visits back down to 3 Forest-card targets (Breeding Pool,
+//       Stomping Ground, Ketria Triome) — where they were before the follow-up 3 promotion.
+//     - Harbor has no basic land types -> invisible to Misty/Scalding/Foothills; each fetch
+//       still has 3-4 live targets (the shocks + Ketria).
+//     - Sulfur Falls' untap check loses one Island; both check lands now lean on Steam Vents /
+//       Breeding Pool / Ketria / Stomping Ground — and Yavimaya, Cradle of Growth auto-passes
+//       Harbor's check (every land on the battlefield is a Forest with it out). Both are
+//       always tapped on T1.
+//   With this swap NOTHING >=25EUR remains in the land base; the reserved-list duals are gone
+//   entirely rather than proxied. Lands stay 36, deck 99; no GC/combo implications.
+//   Buylist delta: Tropical Island (proxy candidate) out entirely, IN Hinterland Harbor 0.33EUR.
 // (v1 history lives in deck/ulalek-bracket3.txt — unchanged.)
