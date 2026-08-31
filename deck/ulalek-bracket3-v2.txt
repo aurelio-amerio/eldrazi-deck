@@ -28,8 +28,8 @@
 1 Stomping Ground
 1 Sulfur Falls
 1 Three Tree City
-1 Tomb of the Spirit Dragon
 1 Ugin's Labyrinth
+1 Urza's Cave
 1 Urza's Mine
 1 Urza's Power Plant
 1 Urza's Tower
@@ -92,7 +92,6 @@
 
 // Creatures (21)
 1 Abstruse Archaic
-1 Azlask, the Swelling Scourge
 1 Chittering Dispatcher
 1 Elder Deep-Fiend
 1 Eldrazi Linebreaker
@@ -102,6 +101,7 @@
 1 Kozilek, the Broken Reality
 1 Kozilek, the Great Distortion
 1 Liberator, Urza's Battlethopter
+1 Matter Reshaper
 1 Roaming Throne
 1 Skittering Cicada
 1 Sowing Mycospawn
@@ -362,4 +362,43 @@
 //   With this swap NOTHING >=25EUR remains in the land base; the reserved-list duals are gone
 //   entirely rather than proxied. Lands stay 36, deck 99; no GC/combo implications.
 //   Buylist delta: Tropical Island (proxy candidate) out entirely, IN Hinterland Harbor 0.33EUR.
+// 2026-08-31 land-tutor pass (owner: Azlask feels weak here — tokens are mana, not an army;
+//   wanted another land fetch to complete the Urza package / find Eye of Ugin). Two-for-two:
+//     Tomb of the Spirit Dragon -> Urza's Cave      (land for land, lands stay 36)
+//     Azlask, the Swelling Scourge -> Matter Reshaper (creature for creature, stays 21)
+//   Why Azlask goes: his activation costs {W}{U}{B}{R}{G} — five DIFFERENT colored pips at once.
+//   All-color sources are only City of Brass/Mana Confluence/Command Tower/Planar Nexus/Path of
+//   Ancestry (+ conditional Orchard/Reflecting Pool); holding all five colors simultaneously
+//   essentially never happens, so the pump/annihilator mode is blank text and he is a 3-mana 2/2
+//   collecting experience counters with no payoff.
+//   LOG CORRECTION: the follow-up 4 note counted Azlask among "4 annihilator bodies" — wrong.
+//   His annihilator grant is part of the uncastable WUBRG activation (and only hits Spawns/
+//   Scions); he never contributed to that plan. Annihilator bodies are 3: Flayer, Taskmaster,
+//   Ulamog the Defiler (+ Conscription's enchanted creature).
+//   Why Urza's Cave: {3},{T},sac: any land onto the battlefield TAPPED, instant speed. Fetches
+//   the missing Urza's Mine/Power-Plant/Tower piece, Planar Nexus, Eye of Ugin, Sanctum, Vesuva,
+//   or EOT Winding Canyons/Emergence Zone. Restores a third guaranteed specific-land tutor —
+//   exactly the flagged cost of the Sylvan Scrying -> Ancient Stirrings swap ("revert if it
+//   bites") — without giving Stirrings back, and in a LAND slot ({C} until needed).
+//   TYPE NOTE: its land type is "Urza's Cave", NOT Mine/Power-Plant/Tower — it FETCHES Tron
+//   pieces but never powers them (that's Planar Nexus's job).
+//   Expedition Map considered and REJECTED for the same job: eats a spell slot, dies to the
+//   artifact hate already aimed at our 8+ rocks, and puts the land to HAND (competes with the
+//   land drop). Map's only edges: 3 total mana vs 4, T1 deploy, fetched land can be played
+//   untapped (mostly relevant for Ancient Tomb). Cave's slot economics win.
+//   Tomb of the Spirit Dragon is the cut: weakest utility land left (lifegain valve only).
+//   Does not contradict the 2026-08-26 ruling (Tomb kept OVER BLAST ZONE — a relative call),
+//   and the earlier -0.9/-1.5 sim penalty for cutting it measured lands 36->35; this is a
+//   like-for-like swap, Cave also taps for {C}, so no land-count cost.
+//   Why Matter Reshaper ({2}{C} 3/2 Eldrazi): attacks the diagnosed weakness (early card flow,
+//   post-wipe refuel) in the exact vacated slot — dies: top card MV<=3 permanent onto the
+//   battlefield (lands included; 36 lands + cheap rocks = most hits) or to hand. True-colorless
+//   Eldrazi: triggers Ulalek (token copy also dies into value), Roaming Throne doubles the death
+//   trigger, Urza's Incubator makes it {C}. Makes wipes cost opponents something.
+//   Verification: Spellbook re-run on the exact post-swap 99 — still EXACTLY the two allowed
+//   late-game lines (Basalt + Forsaken Monument; Ulalek + Echoes + Unsealing), nothing new.
+//   Neither add is on the Aug-2026 Game Changer list; GC count stays at cap 3 (Mana Vault,
+//   Ancient Tomb, Crop Rotation). No color-identity issues (both adds fully colorless).
+//   Buylist delta: OUT Tomb of the Spirit Dragon + Azlask; IN Urza's Cave (1.31EUR) + Matter
+//   Reshaper (0.54EUR) — both far under the 25EUR proxy line.
 // (v1 history lives in deck/ulalek-bracket3.txt — unchanged.)
